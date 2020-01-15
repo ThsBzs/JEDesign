@@ -6,6 +6,8 @@ import Nav from './Components/Nav/Nav'
 import * as serviceWorker from './serviceWorker';
 import Home from './Components/Home/Home'
 import Construction from './Components/Construction/Construction'
+import Template2 from './Components/Template2/Template2'
+import Template3 from './Components/Template3/Template3'
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Containerhome from './Components/ContainerHome/Containerhome';
@@ -24,8 +26,8 @@ const Root = () => (
                 <Route path="/mobilier/fauteuil" component={() => <App details='mobilier3'/>} />
                 <Route path="/mobilier/sdb" component={() => <App details='mobilier4'/>} />
                 <Route path="/mobilier/chaise" component={() => <App details='mobilier5'/>} />
-                <Route path='/sketches' component={Construction}/>
-                <Route exact path="/interior" component={Construction} />
+                <Route path='/sketches' component={() => <Template3  details='mobilier3'/>}/>
+                <Route exact path="/interior" component={() => < Template2 details='remplissage' />} />
                 <Route path="/interior/resto" component={Construction} />
                 <Route path="/contact" component={Construction} />
             </Switch>

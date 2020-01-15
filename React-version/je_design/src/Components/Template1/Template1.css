@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+
+/*Global*/
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0.5em;
+  }
+  
+/*Container images*/
+.picture-container, .pictures{
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.picture-container {
+  width: 25%;
+  margin-right: 5px;
+}
+
+.picture-container>h2{
+  margin-left: -160px;
+}
+
+.pictures{
+  padding: 0px;
+  margin-top: -10px;
+}
+
+.pictures>li, .vertical{
+  overflow: hidden;
+  border-top: 0.25px solid rgb(219, 216, 216) ;
+  border-left: 0.25px solid rgb(219, 216, 216) ;
+  box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
+}
+
+.pictures > li{
+  list-style: none;
+  margin: 0.8em 0.8em;
+  width: 28em;
+  height: 19em;
+}
+  
+.pictures>li>img{
+  width: inherit;
+}
+  
+.pictures > li > img:hover, .vertical>img:hover{
+  overflow: hidden;
+  transition: 200ms;
+  transform: scale(1.1);
+}
+
+.vertical>img, .pictures > li > img {
+  transition: 200ms;
+  transform: scale(1);
+}
+
+.vertical{
+  margin : 45px 45px 4px 5px;
+}
+
+.vertical>img{
+  height: 39.5em;
+}
+
+.text{
+  text-align: left;
+  padding: 1em;
+  border : 5px double grey;
+  font-family: 'Work Sans', semibold;
+  font-size: 20px;
+  width: 20%;
+  min-width: 300px;
+}
+  
+.text > p:first-child, .picture-container > h2{
+  font-family: 'Work Sans', semibold;
+  font-style: italic;
+  font-weight: bold;
+}

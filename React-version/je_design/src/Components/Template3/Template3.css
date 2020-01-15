@@ -1,0 +1,43 @@
+.container3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.pictureContainer3, .pictureText{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+.pictureContainer3>img{
+    margin-bottom: 10px;
+}
+
+.pictureContainer3>img, .pictureText>img{
+    width: 70%;
+    overflow: hidden;
+    border-top: 0.25px solid rgb(219, 216, 216) ;
+    border-left: 0.25px solid rgb(219, 216, 216) ;
+    box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
+}
+
+.pictureText{
+    margin-left: -150px;
+    margin-top: -10px;
+}
+
+.text3{
+    text-align: left;
+    padding: 1em;
+    border : 5px double grey;
+    font-family: 'Work Sans', semibold;
+    font-size: 20px;
+    width: 62%;
+    min-width: 300px;
+}
+

@@ -1,5 +1,5 @@
 import React, { Component} from 'react'
-import Container from './Components/Container/Container'
+import Template1 from './Components/Template1/Template1'
 
 //import des éléments du mobilier
 import mobiliers from './mobilier'
@@ -11,20 +11,15 @@ class App extends Component {
   }
 
   render () {
-    const img = this.state.mobilier[this.state.details].images
-
-    const title = this.state.mobilier[this.state.details].title
-
-    const name = this.state.mobilier[this.state.details].name
-  
-    const content = this.state.mobilier[this.state.details].content
-
-    const verticalImg = this.state.mobilier[this.state.details].verticale
-
     return (
       <div>
-        <Container 
-          className="container" img={img}  title={title} name={name} content={content} verticalImg={verticalImg}
+        <Template1 
+          className="container" 
+          img={this.state.mobilier[this.state.details].images}  
+          title={this.state.mobilier[this.state.details].title} 
+          name={this.state.mobilier[this.state.details].name} 
+          content={this.state.mobilier[this.state.details].content} 
+          verticalImg={this.state.mobilier[this.state.details].verticale}
         />
       </div>
     )

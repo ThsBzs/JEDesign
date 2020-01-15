@@ -36,6 +36,10 @@ const mobiliers = {
         images: 'mobilier/chaise/WSchaise1.jpg, mobilier/chaise/WSchaise2.jpg, mobilier/chaise/WSchaise3.jpg',
         verticale:'',
         content: 'Inspirée par les motifs du cannage, la chaise Jalî (moucharabieh en Hindi) joue sur la transparence et s’inspire des qualités physiques du matériau. A la fois léger et résistant, le cannage laisse passer la lumière. Son tressage caractéristique offre un motif hexagonal repris dans le dossier de la chaise de manière plus contemporaine. Elément graphique, il cloisonne et crée une ouverture sur l’espace à la manière d’un moucharabieh.'
+    },
+    remplissage:{
+        images: 'design_interieur/JOY-3.jpg',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Ornare lectus sit amet est placerat. Arcu bibendum at varius vel pharetra vel turpis. Massa massa ultricies mi quis hendrerit. At imperdiet dui accumsan sit amet nulla facilisi morbi. Maecenas sed enim ut sem viverra aliquet eget sit. Quisque non tellus orci ac auctor. Viverra accumsan in nisl nisi scelerisque eu ultrices. Massa id neque aliquam vestibulum morbi blandit cursus risus. Maecenas ultricies mi eget mauris pharetra et.em'
     }
 }
 
