@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+
+.containerHome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.homeImg {
+    width: 30%;
+    height: 30%;
+    max-width: 40%;
+    margin: 10px;
+}
+
+/*mMasquage de la photo sur petits écrans*/
+@media screen and ( max-width : 800px) {
+    .homeImg{
+        display: none;
+    }
+    .containerHome{
+        justify-content: center;
+    }
+}
+
+.homeText{
+
+    width: 70%;
+    max-width: 60%;
+    text-align: justify;
+}
+
+.homeText > p{
+margin: 5px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+
+.imgList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    list-style: none;
+}
+
+.imgList > li {
+    overflow: hidden;
+    border-top: 0.25px solid rgb(219, 216, 216) ;
+    border-left: 0.25px solid rgb(219, 216, 216) ;
+    box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
+    margin: 15px 15px;
+    width: 40%;
+    height: 13em;
+}
+
+.imgList > li > img{
+    width: 100%;
+    transition: 200ms;
+    transform: scale(1);
+}
+
+.imgList > li > img:hover{
+    transition: 200ms;
+    transform: scale(1.1);
+}
