@@ -30,7 +30,7 @@ const App = () => {
                 <Route path="/mobilier/chaise" component={() => <Template1  categorie='mobilier' id='mobilier5'/>} />
                 <Route path='/sketches' component={Construction}/>
                 <Route exact path="/interior" component={Construction} />
-                <Route path="/interior/resto" component={Construction} />
+                <Route path="/interior/resto" component={ () => <Template2 categorie='interiorDesign' id='joy'/>} />
                 <Route path="/contact" component={Construction} />
             </Switch>
         </BrowserRouter>

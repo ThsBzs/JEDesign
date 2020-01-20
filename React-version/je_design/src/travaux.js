@@ -7,7 +7,7 @@ const travaux = {
             title: 'TABLE DE CHEVET',
             name : 'Table de chevet',
             images: 'mobilier/chevet/WSchevet1.jpg, mobilier/chevet/WSchevet2.jpg',
-            verticale:'mobilier/chevet/WSchevet3.jpg',
+            verticale:'mobilier/chevet/WSchevet3V.jpg',
             content: 'Table de chevet, noyer américain et plateau ardoise. © Ynot'
         },
         mobilier2: {
@@ -50,11 +50,12 @@ const travaux = {
             modele2Content:'Pyrrhos est un poêle à bois conçu pour venir épouser le coin d’une pièce. Le foyer à toujours possédé un rôle central dans l’habitat. Il rassemble et confère une ambiance rassurante. Se servir de ses caractéristiques pour dynamiser les angles de l’habitat qui selon G. Bachelard ne sont que froideur et répulsifs, apporte une solution pour réhabiliter des espaces rarement mis à profit. Pyrrhos, plus qu’un poêle,intègre les usages et rituels de l’homme autour de l’élément feu. Venir s’asseoir autour du foyer à la manière d’un feu de camp, choisir la distance d’assise pour être plus ou moins réchauffé, instaurer un espace convivial… Ces éléments ont inspiré la forme de ce poêle. La structure séparée en deux branches permet à plusieurs personnes de bénéficier d’une chaleur indirecte, et de chauffer plus rapidement les murs de l’habitation. Cette chaleur retransmise en partie par les assises est également mise à profit pour servir de rangement du bois. Elle garde et fait sécher les buches pour une combustion idéale. La forme du poêle est constituée de formes simples, répétées entre elles, réfléchies pour simplifier le moulage et diminuer le coût de production.'
         },
     },
-    remplissage:{
-        images: 'design_interieur/JOY-3.jpg',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Ornare lectus sit amet est placerat. Arcu bibendum at varius vel pharetra vel turpis. Massa massa ultricies mi quis hendrerit. At imperdiet dui accumsan sit amet nulla facilisi morbi. Maecenas sed enim ut sem viverra aliquet eget sit. Quisque non tellus orci ac auctor. Viverra accumsan in nisl nisi scelerisque eu ultrices. Massa id neque aliquam vestibulum morbi blandit cursus risus. Maecenas ultricies mi eget mauris pharetra et.em'
+    interiorDesign:{
+        joy:{
+            modele2: 'design_interieur/JOY-3.jpg',
+            modele2Content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Ornare lectus sit amet est placerat. Arcu bibendum at varius vel pharetra vel turpis. Massa massa ultricies mi quis hendrerit. At imperdiet dui accumsan sit amet nulla facilisi morbi. Maecenas sed enim ut sem viverra aliquet eget sit. Quisque non tellus orci ac auctor. Viverra accumsan in nisl nisi scelerisque eu ultrices. Massa id neque aliquam vestibulum morbi blandit cursus risus. Maecenas ultricies mi eget mauris pharetra et.em'
+        }
     }
-
 }
 
 export default travaux
