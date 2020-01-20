@@ -14,22 +14,32 @@
     width: 30%;
 }
 
-.pictureContainer3>img{
+.pictureContainer3>div>img{
     margin-bottom: 10px;
 }
 
-.pictureContainer3>img, .pictureText>img{
-    width: 70%;
+.picture3{
+    width: 28em;
     overflow: hidden;
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;
     box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
 }
 
-.pictureText{
-    margin-left: -150px;
-    margin-top: -10px;
+.picture3>img{
+    width: 70%;
+    overflow: hidden;
+    
+    transition: 200ms;
+    transform: scale(1);
 }
+
+.picture3>img:hover{
+    overflow: hidden;
+    transition: 200ms;
+    transform: scale(1.1);
+}
+
 
 .text3{
     text-align: left;
@@ -41,3 +51,15 @@
     min-width: 300px;
 }
 
+.picture3{
+    text-align: center;
+}
+
+.pictureContainer3{
+    margin-right: -45px;
+}
+
+.pictureText{
+    margin-left: -45px;
+    margin-top: 25px;
+}

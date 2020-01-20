@@ -17,11 +17,11 @@
     min-width: 300px;
 }
 
-.picture{
+.picture2{
     text-align: center;
 }
 
-.picture>img {
+.picture2>img {
     overflow: hidden;
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;

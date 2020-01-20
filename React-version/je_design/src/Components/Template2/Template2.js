@@ -1,16 +1,16 @@
 import React, {Fragment} from 'react';
 import './Template2.css';
-import mobiliers from '../../mobilier'
+import travaux from '../../travaux'
 
-const Template2 = ({details}) => {
+const Template2 = ({categorie, id}) => {
     return (
         <Fragment>
             <div className="container2">
                 <div className='text2'>
-                    {mobiliers[details].content}
+                    {travaux[categorie][id].modele2Content}
                 </div>
-                <div className='picture'>
-                    <img src={require(`../../images/${mobiliers[details].images}`)} alt={details} ></img>
+                <div className='picture2'>
+                    <img src={require(`../../images/${travaux[categorie][id].modele2}`)} alt={categorie} ></img>
                 </div>
             </div>
         </Fragment>

@@ -1,35 +1,40 @@
 import React, {Fragment} from 'react';
 import './Template3.css';
-import mobiliers from '../../mobilier'
+import travaux from '../../travaux'
 
 
-const Template3 = ({details}) => {
-    const img = mobiliers[details].images.split(', ')
-
-    const requireImage = (image) => (
-        require(`../../images/${image}`)
-    )
+const Template3 = ({categorie, id}) => {
+    const img = travaux[categorie][id].images.split(', '),
+        requireImage = (image) => (
+            require(`../../images/${image}`)
+        )
 
     return (
         <Fragment>
             <div className="container3">
                 <div className='pictureContainer3'>
-                    <img 
-                        src={requireImage(img[0])} 
-                        alt={img[0]}>
-                    </img>
-                    <img 
-                        src={requireImage(img[1])} 
-                        alt={img[1]}>
-                    </img>
+                    <div className='picture3'>
+                        <img 
+                            src={requireImage(img[0])} 
+                            alt={img[0]}>
+                        </img>
+                    </div>
+                    <div className='picture3'>
+                        <img 
+                            src={requireImage(img[1])} 
+                            alt={img[1]}>
+                        </img>
+                    </div>
                 </div>
                 <div className='pictureText'>
-                    <img 
-                        src={requireImage(img[3])} 
-                        alt={img[2]}>
-                    </img>
+                    <div className='picture3'>
+                        <img 
+                            src={requireImage(img[3])} 
+                            alt={img[2]}>
+                        </img>
+                    </div>
                     <p className='text3'>
-                        {mobiliers[details].content}
+                        {travaux[categorie][id].content}
                     </p>
                 </div>
             </div>
