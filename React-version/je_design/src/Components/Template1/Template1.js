@@ -21,17 +21,17 @@ const Template1 = ({categorie, id}) => {
         
     return(
         <Fragment>
-            <div className="container">
-                <div className='picture-container'>
-                <h2>{travaux[categorie][id].title}</h2>
-                    <ul className="pictures">
+            <div className="container1">
+                <div className='picture-container1'>
+                    <h2>{travaux[categorie][id].title}</h2>
+                    <ul className="pictures1">
                         {image}
                     </ul>
                 </div>
-                <div className='vertical'>
+                <div className='vertical1'>
                     {requireImage(travaux[categorie][id].verticale)}
                 </div>
-                <div className='text'>
+                <div className='text1'>
                     <p>{name}</p>
                     <p>{travaux[categorie][id].content} </p>
                 </div>

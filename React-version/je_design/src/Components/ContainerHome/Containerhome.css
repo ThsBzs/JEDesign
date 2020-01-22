@@ -1,29 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
 
-.imgList{
+.container{
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    list-style: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
 }
 
-.imgList > li {
+@media (max-width: 1742px){
+    .container{
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerImgList{
+        justify-content: center;
+        align-items: center;
+        min-width: 80%;
+    }
+
+}
+
+.containerImgList{
+    display: flex;
+    flex-flow: row wrap;
+    width: 55%;
+    list-style: none;
+    margin-top: -15px;
+    padding-left: 0px;
+}
+
+.containerImgList > li {
     overflow: hidden;
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;
     box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
     margin: 15px 15px;
-    width: 40%;
-    height: 13em;
+    width: 28em;
+    min-width: 25em;
+    height: 19em;
 }
 
-.imgList > li > img{
+.containerHomeImg{
     width: 100%;
+    min-height: 19em;
     transition: 200ms;
     transform: scale(1);
 }
 
-.imgList > li > img:hover{
+.containerHomeImg:hover{
     transition: 200ms;
     transform: scale(1.1);
+}
+
+.containerHomeText{
+    text-align: left;
+    padding: 1em;
+    border : 5px double grey;
+    font-family: 'Work Sans', semibold;
+    font-size: 20px;
+    width: 20%;
+    min-width: 19em;
 }

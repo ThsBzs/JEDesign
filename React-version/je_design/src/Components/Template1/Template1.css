@@ -1,77 +1,80 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
 
 /*Global*/
-.container{
+.container1{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: auto auto;
+    margin-bottom: 15px;
   }
   
 /*Container images*/
-.picture-container, .pictures{
+.picture-container1, .pictures1{
   display: flex;
   flex-flow: column wrap;
   list-style: none;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
   align-items: center;
 }
 
-.picture-container {
-  width: 25%;
+.picture-container1 {
+  width: 28em;
   margin-right: 5px;
 }
 
-.picture-container>h2{
+.picture-container1>h2{
   margin-left: -160px;
 }
 
-.pictures{
+.pictures1{
   padding: 0px;
   margin-top: -10px;
 }
 
-.pictures>li, .vertical{
+.pictures1>li, .vertical1{
   overflow: hidden;
   border-top: 0.25px solid rgb(219, 216, 216) ;
   border-left: 0.25px solid rgb(219, 216, 216) ;
   box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
 }
 
-.pictures > li{
+.pictures1 > li{
   list-style: none;
   margin: 0.8em 0.8em;
   width: 28em;
   height: 19em;
 }
   
-.pictures>li>img{
+.pictures1>li>img{
   width: inherit;
 }
   
-.pictures > li > img:hover, .vertical>img:hover{
+.pictures1 > li > img:hover, .vertical1>img:hover{
   overflow: hidden;
   transition: 200ms;
   transform: scale(1.1);
 }
 
-.vertical>img, .pictures>li>img {
+.vertical1>img, .pictures1>li>img {
   transition: 200ms;
   transform: scale(1);
 }
 
-.vertical{
-  margin : 45px 45px 4px 5px;
+.vertical1{
+  min-width: 20em;
+  overflow: hidden;
+  margin : 45px 0px 4px 20px;
 }
 
-.vertical>img{
+.vertical1>img{
+  width: inherit;
   height: 39.5em;
 }
 
-.text{
+.text1{
   text-align: left;
   padding: 1em;
   border : 5px double grey;
@@ -79,10 +82,30 @@
   font-size: 20px;
   width: 20%;
   min-width: 300px;
+  margin-left: 45px;
 }
+
   
-.text > p:first-child, .picture-container > h2{
+.text1 > p:first-child, .picture-container1 > h2{
   font-family: 'Work Sans', semibold;
   font-style: italic;
   font-weight: bold;
 }
+
+
+@media (max-width: 1008px){
+  .container1{
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 815px) { 
+  .vertical1, .text1{
+    margin: 5px 5px;
+  }
+}
+
+
+
+
