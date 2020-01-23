@@ -50,26 +50,32 @@
   
 .sous-menu{
   font-family: 'Work Sans', semibold;
-  transition: 200ms;
   position: absolute;
   width: 100%;
   z-index: 1000;
   list-style-type: none;
   padding-top: 1em;
   padding-left: 0em;
-  display: none;
+  overflow: hidden;
   background-color: #261f28;
   border-left: 1px solid #261f28;
   border-top: none;
+  max-height: 0em;
+  transition: 0.5s max-height 0.5s;
+
 }
-  
+
+.nav-menu:hover .sous-menu{
+  max-height: 150em;
+}
+
 .sous-menu:hover{
   cursor: pointer;
   transition: 200ms;
   background-color: #261f28;
 }
   
-.sous-menu >  a{
+.sous-menu>a{
   border-right: 1px solid #261f28;
   float: left;
   width: 100%;
@@ -82,20 +88,20 @@
   text-decoration: none;
 }
   
-.sous-menu >  a:last-of-type{
+.sous-menu>a:last-of-type{
   border-bottom: 1px solid #261f28;
 }
   
-.sous-menu >  a:hover{
+.sous-menu>a:hover{
   transition: 200ms;
   color: white;
   background-color: #261f28;
 }
     
-.nav-menu:hover > .sous-menu{
+/* .nav-menu:hover>.sous-menu{
   transition: 200ms;
   display: block;
-}
+} */
 
 .burger-menu{
   display: none;
@@ -122,12 +128,9 @@
     transition: 200ms;
     opacity: 0;
   }
-  .burger-menu{
-    display: block;
-  }
 }
 
-@media (max-width: 800px){
+@media (max-width: 819px){
   .nav-links{
     transition: 200ms;
     display: none;

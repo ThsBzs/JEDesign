@@ -1,10 +1,13 @@
 import React, {Fragment} from 'react';
 import './Nav.css';
 
+import Burgernav from '../Burgernav/Burgernav'
+
 const Nav = () =>(
     <Fragment>
         <nav className="nav">
             <a href="/home" className="logo" alt="Julien Estaque Design"><img src={require('../logo.png')} alt="Julien Estaque Design" /></a>
+            <Burgernav />
             <ul className="nav-links">
                 <li><a href="/home">A propos</a></li>
                 <li><a href="/products">Produits</a></li>
@@ -27,10 +30,8 @@ const Nav = () =>(
                 <li><a href="/sketches">Sketches</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
-            <div className='burger-menu'>
-            <img src={require('../logo.png')} alt="Julien Estaque Design" />
-            </div>
         </nav>
+        
     </Fragment>
     )
 
