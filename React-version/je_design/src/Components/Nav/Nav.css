@@ -10,8 +10,6 @@
   width: 100%;
 }
   
-
-
 .nav-links{
   transition: 200ms;
   margin-left: 5em;
@@ -98,7 +96,13 @@
   transition: 200ms;
   display: block;
 }
-  
+
+.burger-menu{
+  display: none;
+}
+/*-------------------------------------------------
+                    RESPONSIVE
+--------------------------------------------------*/
 @media (max-width: 1327px){
   .nav-links > li > a{
     transition: 200ms;
@@ -117,7 +121,9 @@
   .nav-links{
     transition: 200ms;
     opacity: 0;
-    
+  }
+  .burger-menu{
+    display: block;
   }
 }
 
