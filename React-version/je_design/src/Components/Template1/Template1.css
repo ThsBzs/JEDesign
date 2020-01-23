@@ -2,6 +2,7 @@
 
 /*Global*/
 .container1{
+  transition: 200ms;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -12,6 +13,7 @@
   
 /*Container images*/
 .picture-container1, .pictures1{
+  transition: 200ms;
   display: flex;
   flex-flow: column wrap;
   list-style: none;
@@ -75,6 +77,7 @@
 }
 
 .text1{
+  transition: 200ms;
   text-align: left;
   padding: 1em;
   border : 5px double grey;
@@ -95,6 +98,7 @@
 
 @media (max-width: 1008px){
   .container1{
+    transition: 200ms;
     text-align: center;
     align-self: center;
   }
@@ -102,6 +106,7 @@
 
 @media (max-width: 815px) { 
   .vertical1, .text1{
+    transition: 200ms;
     margin: 5px 5px;
   }
 }
