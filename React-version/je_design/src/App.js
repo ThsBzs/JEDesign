@@ -5,6 +5,7 @@ import Construction from './Components/Construction/Construction'
 import Template1 from './Components/Template1/Template1'
 import Template2 from './Components/Template2/Template2'
 import Template3 from './Components/Template3/Template3'
+import Template4 from './Components/Template4/Template4'
 import Containerhome from './Components/ContainerHome/Containerhome';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
@@ -32,6 +33,7 @@ const App = () => {
                 <Route exact path="/interior" component={Construction} />
                 <Route path="/interior/resto" component={ () => <Template2 categorie='interiorDesign' id='joy'/>} />
                 <Route path="/contact" component={Construction} />
+                <Route path="/joy" component={Template4} />
             </Switch>
         </BrowserRouter>
       </Fragment>
