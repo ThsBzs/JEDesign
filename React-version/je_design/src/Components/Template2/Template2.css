@@ -4,7 +4,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 0.5em;
 }
   
 .text2{
@@ -13,12 +12,13 @@
     border : 5px double grey;
     font-family: 'Work Sans', semibold;
     font-size: 20px;
-    width: 60%;
+    width: 66%;
     min-width: 300px;
 }
 
 .picture2{
     text-align: center;
+    max-width: 68.5%;
 }
 
 .picture2>img {
@@ -26,7 +26,7 @@
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;
     box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
-    margin-top: 1em;
-    max-width: 63%;
+    margin-top: 2em;   
+    width: 100%;
 }
 

@@ -1,0 +1,22 @@
+.container5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.picture5{
+    text-align: center;
+    max-width: 68.5%;
+}
+
+.picture5>img {
+    overflow: hidden;
+    border-top: 0.25px solid rgb(219, 216, 216) ;
+    border-left: 0.25px solid rgb(219, 216, 216) ;
+    box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
+    margin-top: 2em;   
+    width: 100%;
+}

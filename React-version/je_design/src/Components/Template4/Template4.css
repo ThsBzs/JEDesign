@@ -11,9 +11,8 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 69%;
     text-align: center;
-
 }
 
 .picture4{
@@ -36,6 +35,6 @@
     border : 5px double grey;
     font-family: 'Work Sans', semibold;
     font-size: 20px;
-    max-width: 66.5%;
+    width: 65.5%;
     min-width: 300px;
 }

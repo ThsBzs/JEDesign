@@ -3,7 +3,7 @@ import './Template4.css'
 import travaux from '../../travaux'
 
 
-const Template3 = () => {
+const Template4 = () => {
     const img = travaux.interiorDesign.joy.verticales.split(', '),
         requireImage = (image) => (
             require(`../../images/${image}`)
@@ -38,4 +38,4 @@ const Template3 = () => {
     )
 }
 
-export default Template3;
+export default Template4;

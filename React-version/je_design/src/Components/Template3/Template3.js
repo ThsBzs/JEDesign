@@ -5,9 +5,13 @@ import travaux from '../../travaux'
 
 const Template3 = ({categorie, id}) => {
     const img = travaux[categorie][id].images.split(', '),
-        requireImage = (image) => (
-            require(`../../images/${image}`)
-        )
+        requireImage = image => {
+            try {
+                return  require(`../../images/${image}`)
+            } catch (err) {
+                return require(`../../images/logo.png`)
+            }
+        }
 
     return (
         <Fragment>
@@ -29,7 +33,7 @@ const Template3 = ({categorie, id}) => {
                 <div className='pictureText'>
                     <div className='picture3'>
                         <img 
-                            src={requireImage(img[3])} 
+                            src={requireImage(img[2])} 
                             alt={img[2]}>
                         </img>
                     </div>

@@ -60,6 +60,11 @@
   transform: scale(1.1);
 }
 
+/*Masquage de la dernière image s'il y en a trop*/
+.pictures1> li:nth-child(3){
+  display: none;
+}
+
 .vertical1>img, .pictures1>li>img {
   transition: 200ms;
   transform: scale(1);
@@ -67,6 +72,7 @@
 
 .vertical1{
   min-width: 20em;
+  max-width: 22em;
   overflow: hidden;
   margin : 45px 0px 4px 20px;
 }
