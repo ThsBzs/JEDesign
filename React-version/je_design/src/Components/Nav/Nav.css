@@ -9,7 +9,7 @@
   background-color: #261f28;
   width: 100%;
 }
-  
+
 .nav-links{
   transition: 200ms;
   margin-left: 5em;
@@ -17,6 +17,7 @@
   padding-bottom: 1em;
   list-style-type: none;
   display: flex;
+  margin-bottom: 0px;
 }
   
 .nav-links > li {

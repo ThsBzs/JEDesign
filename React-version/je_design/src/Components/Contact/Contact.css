@@ -1,0 +1,21 @@
+.containerContact{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire{
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire>input, .formulaire>textarea{
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 5px;
+}
+

@@ -1,4 +1,6 @@
 .container2{
+    margin-top: 20px;
+    margin-bottom: -20px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

@@ -10,7 +10,6 @@ const Nav = () =>(
             <Burgernav />
             <ul className="nav-links">
                 <li><a href="/home">A propos</a></li>
-                <li><a href="/products">Produits</a></li>
                 <li className="nav-menu">
                     <a href="/mobilier">Mobilier</a>
                     <ul className="sous-menu">
@@ -29,6 +28,7 @@ const Nav = () =>(
                         <a href="/interior/resto"><li className="resto">Restaurant Joy - Hanoï</li></a>
                     </ul> 
                 </li>
+                <li><a href="/products">Produits</a></li>
                 <li><a href="/sketches">Sketches</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>

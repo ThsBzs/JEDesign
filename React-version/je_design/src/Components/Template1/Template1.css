@@ -29,6 +29,7 @@
 
 .picture-container1>h2{
   margin-left: -160px;
+  min-height: 23px;
 }
 
 .pictures1{
@@ -80,6 +81,7 @@
 .vertical1>img{
   width: inherit;
   height: 39.5em;
+  margin-bottom: -4px;
 }
 
 .text1{
