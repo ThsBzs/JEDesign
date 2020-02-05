@@ -11,7 +11,9 @@ const Joy = ({categorie, id}) => {
         <Fragment>
             <Template2 categorie={categorie} id={id}/>
             <Template1 categorie={categorie} id={id}/>
-            <Template2 categorie={categorie} id={id}/>
+            <Template2 categorie={categorie} id={'joy2'}/>
+            {/*TODO : insérer un component Carousel ici avec les 
+            images du dossier Carousel*/}
             <Template3 categorie={categorie} id={id}/>
             <Template4/>
         </Fragment>

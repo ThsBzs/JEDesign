@@ -6,6 +6,7 @@ const Template2 = ({categorie, id}) => {
 
     const text = travaux[categorie][id].modele2Content
 
+    
     return (
         <Fragment>
             <div className="container2">

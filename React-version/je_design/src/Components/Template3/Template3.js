@@ -4,7 +4,7 @@ import travaux from '../../travaux'
 
 
 const Template3 = ({categorie, id}) => {
-    const img = travaux[categorie][id].images.split(', '),
+    const img = travaux[categorie][id].images3.split(', '),
         requireImage = image => {
             try {
                 return  require(`../../images/${image}`)
@@ -38,7 +38,7 @@ const Template3 = ({categorie, id}) => {
                         </img>
                     </div>
                     <p className='text3'>
-                        {travaux[categorie][id].content}
+                        {travaux[categorie][id].content3}
                     </p>
                 </div>
             </div>
