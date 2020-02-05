@@ -1,7 +1,9 @@
 //Liste du mobilier, utilisée pour remplir les pages
 const travaux = {
-    listeMobilier: 'mobilier/console/console1, mobilier/chevet/chevet1, mobilier/fauteuil/fauteuil, mobilier/sdb/sdb',
-    listeProduits: '',
+    mobilierHome: {
+        name:'Mobilier',
+        images: 'mobilier/console/WSconsole1.jpg, mobilier/chevet/WSchevet1.jpg, mobilier/sdb/WSsdb1.jpg, mobilier/fauteuil/WSfauteuil1.jpg',
+    },
     mobilier:{
         mobilier1: {
             title: 'TABLE DE CHEVET',

@@ -29,6 +29,15 @@ const Nav = () =>(
                     </ul> 
                 </li>
                 <li><a href="/products">Produits</a></li>
+                <li className="nav-menu">
+                    <a href="/visuel">Communication visuelle</a>
+                    <ul className="sous-menu">
+                        <a href="/visuel/carte"><li className="carte">Carte de visite</li></a>
+                        <a href="/visuel/mephich"><li className="mephich">Restaurant Me Phich</li></a>
+                        <a href="/visuel/abyss"><li className="abyss">Abyss</li></a>
+                        <a href="/visuel/petit"><li className="petit">Petit - Centre d'apprentissage des langues</li></a>
+                    </ul> 
+                </li>
                 <li><a href="/sketches">Sketches</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import './Template1.css';
-import travaux from '../../../src/travaux'
+import travaux from '../../travaux'
 
 const Template1 = ({categorie, id}) => {
     //Sur l'objet passé dans détails,

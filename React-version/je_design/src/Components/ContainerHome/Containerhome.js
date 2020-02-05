@@ -1,23 +1,36 @@
 import React,  { Fragment } from 'react'
 import './Containerhome.css'
+import visuel from '../../visuel'
+import travaux from '../../travaux'
 
- const Containerhome = ({ un, deux, trois, quatre}) => {
+ const Containerhome = ({ sujet, categorie, id }) => {
+
+    const source = path => {
+        if (path === 'travaux') {
+            return travaux.mobilierHome
+        } else if (path === 'visuel') {
+            return visuel[categorie][id]
+        }
+    },
+    nom = source(sujet);
+    console.log(nom)
+    const img = source(sujet).images,
+    requireImage = path => {
+        try {
+            return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'></img>
+        } catch (err) {
+            return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
+        }
+    },
+    image = img.split(', ').map(img => <li key={img}>{requireImage(img)}</li>)
+
+    console.log(image)
+        
     return(
         <Fragment>
             <div className='container'>
                 <ul className='containerImgList'>
-                    <li>
-                        <img src={require(`../../images/${un}.jpg`)} alt="console" className='containerHomeImg'/>
-                    </li>
-                    <li>
-                        <img src={require(`../../images/${deux}.jpg`)} alt="sdb" className='containerHomeImg'/>
-                    </li>
-                    <li>
-                        <img src={require(`../../images/${trois}.jpg`)} alt="chevet" className='containerHomeImg'/>
-                    </li>
-                    <li>
-                        <img src={require(`../../images/${quatre}.jpg`)} alt="fauteuil" className='containerHomeImg' />
-                    </li>
+                    {image}
                 </ul>
                 <div className='containerHomeText'>
                         <p>Des meubles pensés pour durer.</p>
