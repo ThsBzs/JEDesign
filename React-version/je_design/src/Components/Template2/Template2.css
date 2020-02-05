@@ -32,3 +32,8 @@
     width: 100%;
 }
 
+@media (max-width: 824px){
+    .picture2>img{
+        display: none ;
+    }
+}
