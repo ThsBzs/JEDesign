@@ -12,9 +12,8 @@ import travaux from '../../travaux'
             return visuel[categorie][id]
         }
     },
-    nom = source(sujet);
-    console.log(nom)
-    const img = source(sujet).images,
+    nom = source(sujet),
+    img = source(sujet).images,
     requireImage = path => {
         try {
             return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'></img>

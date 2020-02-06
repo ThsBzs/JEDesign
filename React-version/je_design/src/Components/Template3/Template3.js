@@ -11,32 +11,27 @@ const Template3 = ({categorie, id}) => {
             } catch (err) {
                 return require(`../../images/logo.png`)
             }
+        },
+        insert = (picture) => {
+            return (
+                <div className='picture3'>
+                    <img 
+                        src={requireImage(picture)} 
+                        alt={picture}>
+                    </img>
+                </div>
+            )
         }
 
     return (
         <Fragment>
             <div className="container3">
                 <div className='pictureContainer3'>
-                    <div className='picture3'>
-                        <img 
-                            src={requireImage(img[0])} 
-                            alt={img[0]}>
-                        </img>
-                    </div>
-                    <div className='picture3'>
-                        <img 
-                            src={requireImage(img[1])} 
-                            alt={img[1]}>
-                        </img>
-                    </div>
+                    {insert(img[0])}
+                    {insert(img[1])}
                 </div>
                 <div className='pictureText'>
-                    <div className='picture3'>
-                        <img 
-                            src={requireImage(img[2])} 
-                            alt={img[2]}>
-                        </img>
-                    </div>
+                    {insert(img[2])}    
                     <p className='text3'>
                         {travaux[categorie][id].content3}
                     </p>
