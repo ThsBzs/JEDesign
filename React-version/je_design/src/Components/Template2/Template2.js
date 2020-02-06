@@ -3,10 +3,8 @@ import './Template2.css';
 import travaux from '../../travaux'
 
 const Template2 = ({categorie, id}) => {
-
     const text = travaux[categorie][id].modele2Content
 
-    
     return (
         <Fragment>
             <div className="container2">

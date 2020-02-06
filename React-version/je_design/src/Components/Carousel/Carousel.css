@@ -2,6 +2,8 @@
     margin: 45px auto -30px auto;
     max-width: 68.5%;
     text-align: center;
+    border-top: 0.25px solid rgb(219, 216, 216) ;
+    border-left: 0.25px solid rgb(219, 216, 216) ;
     box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
 }
 

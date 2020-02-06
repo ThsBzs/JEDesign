@@ -22,8 +22,6 @@ import travaux from '../../travaux'
         }
     },
     image = img.split(', ').map(img => <li key={img}>{requireImage(img)}</li>)
-
-    console.log(image)
         
     return(
         <Fragment>

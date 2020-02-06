@@ -10,6 +10,7 @@ import Template5 from './Components/Template5/Template5'
 import Containerhome from './Components/ContainerHome/Containerhome';
 import Contact from './Components/Contact/Contact'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Carousel from './Components/Carousel/Carousel'
 
 const App = () => {
     return (
@@ -34,7 +35,8 @@ const App = () => {
               {/* PRODUITS */}
               <Route exact path="/products" component={() => 
                 <Fragment>
-                  <Template5 />
+                  {/* <Template5 /> */}
+                  <Carousel sujet='produits' />
                   <Template1  categorie='produits' id='produit1' /> 
                   <Template2 categorie='produits' id='produit1'/> 
                 </Fragment> }

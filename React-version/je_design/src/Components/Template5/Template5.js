@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import './Template5.css'
 import travaux from '../../travaux'
 
-
 const Template5 = () => {
 
     const img = travaux.produits.produit1.recherches

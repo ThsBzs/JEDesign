@@ -4,9 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Carousel.css'
 import travaux from '../../travaux';
 
-const JECarousel = ({categorie, id}) => {
-    
-    const picture = travaux[categorie][id].modele2Carousel.split(', '),
+const JECarousel = ({sujet, categorie, id}) => {
+    const source = path => {
+        if (path === 'mobilier') {
+            return travaux[categorie][id].modele2Carousel
+        } else if (path === 'produits') {
+            return travaux.produits.produit1.recherches
+        }
+    },
     requireImage = image => {
         try {
             return require(`../../images/${image}`)
@@ -14,30 +19,23 @@ const JECarousel = ({categorie, id}) => {
             return require(`../../images/logo.png`)
         }
     }, 
-    image =  picture.map( picture => 
+    img = source(sujet)
+        .split(', ')
+        .map(picture => 
             <div>
                 <img 
                     src={requireImage(picture)} 
                     alt={picture}>
                 </img>
-            </div>
-            
-        
-        )
+            </div>  )
     
     return(
-        
         <div className='jeCarousel'>
-            
-            
-        <Carousel>
-        {image}
-        </Carousel>
-        
+            <Carousel>
+                {img}
+            </Carousel>
         </div>
-        
     )
-    
 }
 
 export default JECarousel
