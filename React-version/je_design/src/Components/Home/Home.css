@@ -3,18 +3,17 @@
 .containerHome{
     margin-top: 15px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
 .homeImg {
-    width: 30%;
+    width: 20%;
     height: 30%;
-    max-width: 40%;
     margin: 10px;
-    transform: rotate(90deg);
+    
 }
 
 /*mMasquage de la photo sur petits écrans*/
@@ -28,10 +27,15 @@
 }
 
 .homeText{
-
-    width: 70%;
-    max-width: 60%;
-    text-align: justify;
+    text-align: left;
+    padding: 1em;
+    border : 5px double grey;
+    font-family: 'Work Sans', semibold;
+    font-size: 20px;
+    min-width: 300px;
+    margin-left: 45px;
+    width: 20%;
+    text-align: left;
 }
 
 .homeText > p{

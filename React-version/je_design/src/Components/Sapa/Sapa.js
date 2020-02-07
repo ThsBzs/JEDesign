@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Template2 from '../Template2/Template2'
+import JECarousel from '../JECarousel/JECarousel'
 import Template1 from '../Template1/Template1'
 
 const Sapa = ({categorie, id}) => {
@@ -7,7 +7,7 @@ const Sapa = ({categorie, id}) => {
         <Fragment>
             <Template1 categorie={categorie} id={id}/>
             <Template1 categorie={categorie} id={`mobilier7`}/>
-            <Template2 categorie={categorie} id={id}/>
+            <JECarousel sujet={categorie} categorie={categorie} id={`mobilier7`}/>
         </Fragment>
     )
 }
