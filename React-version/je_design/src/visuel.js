@@ -15,7 +15,10 @@ const visuel = {
         },
         visuel3:{
             name:'Abyss - papier',
-            images:'communicationVisuelle/abyss/WSAbyss1.jpg, communicationVisuelle/abyss/WSAbyss2.jpg, communicationVisuelle/abyss/WSAbyss3.jpg, communicationVisuelle/abyss/WSAbyss4.jpg, communicationVisuelle/abyss/WSAbyss5.jpg'
+            title:'Travail de création',
+            images:'communicationVisuelle/abyss/WSAbyss1.jpg, communicationVisuelle/abyss/WSAbyss2.jpg',
+            verticale:'communicationVisuelle/abyss/WSAbyss5.jpg',
+            modele2Carousel:'communicationVisuelle/abyss/WSAbyss3.jpg, communicationVisuelle/abyss/WSAbyss4.jpg'
         },
         visuel4:{
             name:`Petit - centre d'apprentissage des langues`,
