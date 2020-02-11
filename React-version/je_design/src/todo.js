@@ -4,4 +4,5 @@
     - Reprendre le menu au niveaud de l'affichage réduit, la bascule ne se fait pas assez rapidement
     - Carte de visite : template 1
     - Me Phich : template 1 + carousel
+    - reprendre le CSS de burgernav pour la checkbox -> il faut que l'utilisateur de smartphone puisse cliquer dessus pour dérouler le menu
 */

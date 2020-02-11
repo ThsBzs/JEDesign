@@ -1,11 +1,24 @@
 //Liste du mobilier, utilisée pour remplir les pages
 const travaux = {
-    mobilierHome: {
+    mobilierHome: {//
         name:'Mobilier',
         images: 'mobilier/console/WSconsole1.jpg, mobilier/chevet/WSchevet1.jpg, mobilier/sdb/WSsdb1.jpg, mobilier/fauteuil/WSfauteuil1.jpg',
     },
     mobilier:{
+        /*Objet-type :
+        numéro dans la liste: {
+            link: lien, utilisé pour les pages d'accueil
+            ingHome: image unique, utilisée pour la page mobilier
+            title: utilisé pour le template 1
+            name: utilisé pour le texte du template 1
+            images: liste pour le template1
+            verticales: pour le template1, verticale
+            content: texte de remplissage du template1
+        }
+        */
         mobilier1: {
+            link:'/mobilier/chevet',
+            imgHome:'mobilier/console/WSconsole1.jpg',
             title: 'TABLE DE CHEVET',
             name : 'Table de chevet',
             images: 'mobilier/chevet/WSchevet1.jpg, mobilier/chevet/WSchevet2.jpg',
@@ -13,6 +26,8 @@ const travaux = {
             content: 'Table de chevet, noyer américain et plateau ardoise. © Ynot'
         },
         mobilier2: {
+            link:'/mobilier/console',
+            imgHome:'mobilier/console/WSconsole1.jpg',
             title: 'CONSOLE LINES',
             name : 'Console Lines, bois de noyer',
             images: 'mobilier/console/WSconsole1.jpg, mobilier/console/WSconsole2.jpg',
@@ -20,6 +35,8 @@ const travaux = {
             content: 'Console multi-rangements façon secrétaire. Mise en place d’une rythmique au niveau des poignées de tiroirs afin de créer une perspective à l’objet. Les poignées tendent à s’effacer en devenant motifs. © Ynot'
         },
         mobilier3: {
+            link:'/mobilier/fauteuil',
+            imgHome:'mobilier/fauteuil/WSfauteuil1.jpg',
             title: 'FAUTEUIL ET SOFA ANGULAR',
             name : 'Fauteuil Angular, bois de noyer et textile.',
             images: 'mobilier/fauteuil/WSfauteuil1.jpg, mobilier/fauteuil/WSfauteuil2.jpg',
@@ -27,6 +44,8 @@ const travaux = {
             content: 'Conçu pour l’espace boudoir d’un fumoir à cigare au sein d’un restaurant. Les accoudoirs en bois permettent de réduire l’usure de passage et donnent une touche contemporaine. La structure en retrait apporte une légèreté au niveau esthétique et vient renforcer les accoudoirs. © Ynot'
         },
         mobilier4: {
+            link:'/mobilier/sdb',
+            imgHome:'mobilier/sdb/WSsdb1.jpg',
             title: 'MEUBLE DE SALLE DE BAIN',
             name : 'Meuble de salle de bains, bois de noyer.',
             images: 'mobilier/sdb/WSsdb1.jpg, mobilier/sdb/WSsdb2.jpg',
@@ -34,6 +53,8 @@ const travaux = {
             content: 'Vasque en céramique et plateau en marbre noir (veinage blanc). Tiroirs centraux conçus en U afin d’accueillir le tuyau d’évacuation de l’évier. © Ynot'
         },
         mobilier5: {
+            link:'/mobilier/chaise',
+            imgHome:'mobilier/chaise/WSchaise1.jpg',
             title: 'CHAISE JALI',
             name : 'Concept de chaise en métal et rotin',
             images: 'mobilier/chaise/WSchaise1.jpg, mobilier/chaise/WSchaise2.jpg',
@@ -41,6 +62,8 @@ const travaux = {
             content: 'Inspirée par les motifs du cannage, la chaise Jalî (moucharabieh en Hindi) joue sur la transparence et s’inspire des qualités physiques du matériau. A la fois léger et résistant, le cannage laisse passer la lumière. Son tressage caractéristique offre un motif hexagonal repris dans le dossier de la chaise de manière plus contemporaine. Elément graphique, il cloisonne et crée une ouverture sur l’espace à la manière d’un moucharabieh.'
         },
         mobilier6: {
+            link:'/mobilier/sapa',
+            imgHome:'mobilier/sapa/WSSapatable1.jpg',
             title: 'TABLE BASSE SAPA',
             name : 'MDF et laque',
             images: 'mobilier/sapa/WSSapatable1.jpg, mobilier/sapa/WSSapatable2.jpg',
@@ -48,12 +71,16 @@ const travaux = {
             content: 'Inspirée par les rizières en terrasse, la table basse Sapa reprend les motifs caractéristiques formés par les cultures de riz des hauts plateaux de Sapa. A la fois minérale et organique, sa forme est comme un monolithe sculptural qui vient habiller l’espace en cassant les perspectives. La finition laquée mat ou brillante vient mettre en valeur les sillons et jouer avec la lumière. La gamme Sapa comporte un modèle de miroir, une lampe de chevet, une console et une table basse. Cet ensemble reprend les mêmes codes avec une esthétique complémentaire, pour être assorti de manière harmonieuse. Designé pour Ynot ©'
         },
         mobilier7: {
+            link:'/mobilier/sapa',
+            imgHome:'mobilier/sapa/WSSapatable6.jpg',
             images: 'mobilier/sapa/WSSapatable6.jpg, mobilier/sapa/WSSapatable7.jpg, mobilier/sapa/WSSapatable8.jpg',
             verticale:'mobilier/sapa/WSSapatable8v.jpg',
             modele2Carousel: 'mobilier/sapa/WSSapatable8.jpg, mobilier/sapa/WSSapatable9.jpg',
             content: 'Entièrement réalisée à la main, la gamme Sapa reprend les techniques de fabrication ancestrale de laquage et fait perdurer un artisanat local. Les modèles sont conçus à partir de strates suivant les plans techniques, assemblés à l’identique, préparés et enduits de plusieurs couches de laque. Le laquage est poncé méticuleusement pour atteindre son aspect lisse final. Designé pour Ynot ©'
         },
         mobilier8: {
+            link:'/mobilier/console-white',
+            imgHome:'mobilier/console-white/WSconsoleWhite1.jpg',
             title: 'CONSOLE WHITE',
             name : 'Console en bois de noyer, tiroirs peints.',
             images: 'mobilier/console-white/WSconsoleWhite1.jpg, mobilier/console-white/WSconsoleWhite3.jpg',

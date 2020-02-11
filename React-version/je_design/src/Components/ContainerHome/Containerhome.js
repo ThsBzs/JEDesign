@@ -7,27 +7,40 @@ import travaux from '../../travaux'
 
     const source = path => {
         if (path === 'travaux') {
-            return travaux.mobilierHome
+            return travaux.mobilier
         } else if (path === 'visuel') {
             return visuel[categorie][id]
         }
     },
-    nom = source(sujet),
-    img = source(sujet).images,
-    requireImage = path => {
+    [nom] = source(sujet)
+    console.log(nom)
+    const requireImage = path => {
         try {
-            return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'></img>
-        } catch (err) {
-            return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
-        }
-    },
-    image = img.split(', ').map(img => <li key={img}>{requireImage(img)}</li>)
+             return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'><a href={nom.link}>{nom}</a></img>
+         } catch (err) {
+             return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
+         }
+     }
+     console.log([nom])
+    //image = {...nom}.map(img => <li key={img}>{requireImage(img)}</li>)
+    //.map(nom => <li key={nom}>{requireImage(this.imgHome)}</li>)
+    
+    // img = source(sujet).imghome,
+    // link=source(sujet).link,
+    // requireImage = path => {
+    //     try {
+    //         return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'><a href={link}>{nom}</a></img>
+    //     } catch (err) {
+    //         return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
+    //     }
+    // },
+    // image = img.split(', ').map(img => <li key={img}>{requireImage(img)}</li>)
         
     return(
         <Fragment>
             <div className='container'>
                 <ul className='containerImgList'>
-                    {image}
+                    {requireImage()}
                 </ul>
                 <div className='containerHomeText'>
                         <p>Des meubles pensés pour durer.</p>

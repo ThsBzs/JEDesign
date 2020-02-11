@@ -3,11 +3,16 @@ import './Burgernav.css';
 
 const Nav = () =>(
     <Fragment>
+        
         <nav className="burger-nav">
             <div className="burger-bar">
+            <input type="checkbox" id="burgerCheck" />
+            <label className='button' for='burgerCheck'>
+            </label>
                 <p > </p>
                 <p > </p>
                 <p > </p>
+                
             <ul className="burger-nav-links">
                 <li><a href="/home">A propos</a></li>
                 <li><a href="/products">Produits</a></li>
@@ -32,6 +37,7 @@ const Nav = () =>(
             </ul>
             </div>
         </nav>
+        
     </Fragment>
     )
 
