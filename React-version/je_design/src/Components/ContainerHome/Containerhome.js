@@ -3,13 +3,13 @@ import './Containerhome.css'
 import visuel from '../../visuel'
 import travaux from '../../travaux'
 
- const Containerhome = ({ sujet, categorie, id }) => {
+ const Containerhome = ({ sujet }) => {
 
     const source = path => {
         if (path === 'travaux') {
             return travaux.mobilier
         } else if (path === 'visuel') {
-            return visuel[categorie][id]
+            return visuel.produits
         }
     },
     arr = source(sujet),

@@ -40,15 +40,19 @@ const App = () => {
                 </Fragment> }
               />
               {/* COM VISUELLE */}
-              <Route exact path="/visuel" component={() => <Containerhome sujet='visuel' categorie='global' id='main'/>} />
-              <Route path="/visuel/carte" component={() => <Containerhome sujet='visuel' categorie='produits' id='visuel1'/>} />
-              <Route path="/visuel/mephich" component={() => <Containerhome sujet='visuel' categorie='produits' id='visuel2'/>} />
+              <Route exact path="/visuel" component={() => <Containerhome sujet='visuel' />} />
+              <Route path="/visuel/carte" component={() => <Template1 sujet='visuel' categorie='produits' id='visuel1'/>} />
+              <Route path="/visuel/mephich" component={() => 
+                <Fragment>
+                  <Template1 sujet='visuel' categorie='produits' id='visuel2'/>
+                  <JECarousel sujet='visuel' categorie='produits' id='visuel2' />
+                </Fragment> } />
               <Route path="/visuel/abyss" component={() => 
                 <Fragment>
                     <Template1 sujet='visuel' categorie='produits' id='visuel3'/>
                     <JECarousel sujet='visuel' categorie='produits' id='visuel3' />
                 </Fragment> }/>
-              <Route path="/visuel/petit" component={() => <Containerhome sujet='visuel' categorie='produits' id='visuel4'/>} />
+              <Route path="/visuel/petit" component={() => <Containerhome sujet='visuel'/>} />
               {/* SKETCHES */}
               <Route path='/sketches' component={Construction}/>
               {/* CONTACT */}
