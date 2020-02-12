@@ -43,8 +43,9 @@
     height: 19em;
 }
 
+
 .containerHomeImg{
-    width: 100%;
+    width: 28em;
     min-height: 19em;
     transition: 200ms;
     transform: scale(1);
@@ -53,6 +54,12 @@
 .containerHomeImg:hover{
     transition: 200ms;
     transform: scale(1.1);
+}
+
+.containerHomeImg:hover .homeLink>h3{
+    display: block;
+
+    
 }
 
 .containerHomeText{
@@ -64,3 +71,4 @@
     width: 20%;
     min-width: 19em;
 }
+

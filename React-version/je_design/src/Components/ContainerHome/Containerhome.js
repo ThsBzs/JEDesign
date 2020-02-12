@@ -12,35 +12,25 @@ import travaux from '../../travaux'
             return visuel[categorie][id]
         }
     },
-    [nom] = source(sujet)
-    console.log(nom)
-    const requireImage = path => {
+    arr = source(sujet),
+    requireImage = path => {
         try {
-             return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'><a href={nom.link}>{nom}</a></img>
+             return <li>
+                        <a href={path.link} >
+                            <img src={require(`../../images/${path.imgHome}`)} alt={path.title} className='containerHomeImg'>
+                            </img>
+                        </a>
+                    </li>
          } catch (err) {
-             return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
+             return <img src={require(`../logo.png`)} alt={arr} className='containerHomeImg'></img>
          }
      }
-     console.log([nom])
-    //image = {...nom}.map(img => <li key={img}>{requireImage(img)}</li>)
-    //.map(nom => <li key={nom}>{requireImage(this.imgHome)}</li>)
-    
-    // img = source(sujet).imghome,
-    // link=source(sujet).link,
-    // requireImage = path => {
-    //     try {
-    //         return <img src={require(`../../images/${path}`)} alt={nom} className='containerHomeImg'><a href={link}>{nom}</a></img>
-    //     } catch (err) {
-    //         return <img src={require(`../logo.png`)} alt={nom} className='containerHomeImg'></img>
-    //     }
-    // },
-    // image = img.split(', ').map(img => <li key={img}>{requireImage(img)}</li>)
         
     return(
         <Fragment>
             <div className='container'>
                 <ul className='containerImgList'>
-                    {requireImage()}
+                    {Object.keys(arr).map(key => requireImage(arr[key]))}
                 </ul>
                 <div className='containerHomeText'>
                         <p>Des meubles pensés pour durer.</p>

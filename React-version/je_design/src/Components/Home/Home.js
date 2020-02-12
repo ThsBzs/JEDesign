@@ -6,7 +6,7 @@ class Home extends Component {
         return(
             <Fragment>
                 <div className="containerHome">
-                    <img src={require('./julien.JPG')} alt='Julien' className="homeImg"></img>
+                    <img src={require('./julien.jpg')} alt='Julien' className="homeImg"></img>
                     <section className="homeText">
                         <p>Designer d&#39;objets et de mobilier, je possède une sensibilité particulière pour les matériaux naturels et
                         l&#39;artisanat. Le travail des matières, les textures, les savoir-faire, les cultures du monde font partie de

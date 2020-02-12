@@ -18,7 +18,7 @@ const travaux = {
         */
         mobilier1: {
             link:'/mobilier/chevet',
-            imgHome:'mobilier/console/WSconsole1.jpg',
+            imgHome:'mobilier/chevet/WSchevet2.jpg',
             title: 'TABLE DE CHEVET',
             name : 'Table de chevet',
             images: 'mobilier/chevet/WSchevet1.jpg, mobilier/chevet/WSchevet2.jpg',
@@ -45,7 +45,7 @@ const travaux = {
         },
         mobilier4: {
             link:'/mobilier/sdb',
-            imgHome:'mobilier/sdb/WSsdb1.jpg',
+            imgHome:'mobilier/sdb/WSsdb2.jpg',
             title: 'MEUBLE DE SALLE DE BAIN',
             name : 'Meuble de salle de bains, bois de noyer.',
             images: 'mobilier/sdb/WSsdb1.jpg, mobilier/sdb/WSsdb2.jpg',
