@@ -6,16 +6,16 @@ import Template1 from '../Template1/Template1'
 import JECarousel from '../JECarousel/JECarousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const Joy = ({categorie, id}) => {
+const Joy = ({requireImage, categorie, id}) => {
 
     return (
         <Fragment>
             <Template2 categorie={categorie} id={id}/>
             <Template1 categorie={categorie} id={id}/>
             <Template2 categorie={categorie} id={'joy2'}/>
-            <JECarousel sujet={'mobilier'} categorie={categorie} id={'joy2'}/>
-            <Template3 categorie={categorie} id={id}/>
-            <Template4/>
+            <JECarousel requireImage={requireImage} sujet={'mobilier'} categorie={categorie} id={'joy2'}/>
+            <Template3 requireImage={requireImage} categorie={categorie} id={id}/>
+            <Template4 requireImage={requireImage} />
         </Fragment>
     )
 }

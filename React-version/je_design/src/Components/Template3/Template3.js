@@ -3,15 +3,8 @@ import './Template3.css';
 import travaux from '../../travaux'
 
 
-const Template3 = ({categorie, id}) => {
+const Template3 = ({requireImage, categorie, id}) => {
     const img = travaux[categorie][id].images3.split(', '),
-        requireImage = image => {
-            try {
-                return  require(`../../images/${image}`)
-            } catch (err) {
-                return require(`../../images/logo.png`)
-            }
-        },
         insert = (picture) => {
             return (
                 <div className='picture3'>

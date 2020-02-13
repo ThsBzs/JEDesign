@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, Component } from 'react'
 import Nav from './Components/Nav/Nav'
 import Home from './Components/Home/Home'
 import Construction from './Components/Construction/Construction'
@@ -11,7 +11,17 @@ import Contact from './Components/Contact/Contact'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import JECarousel from './Components/JECarousel/JECarousel'
 
-const App = () => {
+class App extends Component {
+
+  requireImage = image => {
+    try {
+        return require(`./images/${image}`)
+    } catch (err) {
+        return require(`./Components/logo.png`)
+    }
+  }
+
+    render () {
     return (
       <Fragment>
         <Nav />
@@ -23,18 +33,18 @@ const App = () => {
               {/* MOBILIER */}
               <Route exact path="/mobilier" component={() => <Containerhome sujet='travaux'/>} />
               <Route path="/mobilier/chevet" component={() => <Template1  categorie='mobilier' id='mobilier1' />} />
-              <Route path="/mobilier/sapa" component={() => <Sapa  categorie='mobilier' id='mobilier6'/>} />
+              <Route path="/mobilier/sapa" component={() => <Sapa requireImage={this.requireImage} categorie='mobilier' id='mobilier6'/>} />
               <Route path="/mobilier/console" component={() => <Template1  categorie='mobilier' id='mobilier2'/>} />
               <Route path="/mobilier/fauteuil" component={() => <Template1  categorie='mobilier' id='mobilier3'/>} />
               <Route path="/mobilier/sdb" component={() => <Template1  categorie='mobilier' id='mobilier4'/>} />
               <Route path="/mobilier/chaise" component={() => <Template1  categorie='mobilier' id='mobilier5'/>} />
               <Route path="/mobilier/console-white" component={() => <Template1  categorie='mobilier' id='mobilier8'/>} />
               {/* DESIGN INTERIEUR */}
-              <Route path="/interior" component={() => <Joy  categorie='interiorDesign' id='joy'/>} />
+              <Route path="/interior" component={() => <Joy requireImage={this.requireImage} categorie='interiorDesign' id='joy'/>} />
               {/* PRODUITS */}
               <Route exact path="/products" component={() => 
                 <Fragment>
-                  <JECarousel sujet='produits' />
+                  <JECarousel requireImage={this.requireImage} sujet='produits' />
                   <Template1  sujet='joy' categorie='produits' id='produit1' /> 
                   <Template2 categorie='produits' id='produit1'/> 
                 </Fragment> }
@@ -45,12 +55,12 @@ const App = () => {
               <Route path="/visuel/mephich" component={() => 
                 <Fragment>
                   <Template1 sujet='visuel' categorie='produits' id='visuel2'/>
-                  <JECarousel sujet='visuel' categorie='produits' id='visuel2' />
+                  <JECarousel requireImage={this.requireImage} sujet='visuel' categorie='produits' id='visuel2' />
                 </Fragment> } />
               <Route path="/visuel/abyss" component={() => 
                 <Fragment>
                     <Template1 sujet='visuel' categorie='produits' id='visuel3'/>
-                    <JECarousel sujet='visuel' categorie='produits' id='visuel3' />
+                    <JECarousel requireImage={this.requireImage} sujet='visuel' categorie='produits' id='visuel3' />
                 </Fragment> }/>
               <Route path="/visuel/petit" component={() => <Containerhome sujet='visuel'/>} />
               {/* SKETCHES */}
@@ -61,6 +71,7 @@ const App = () => {
         </BrowserRouter>
       </Fragment>
     )
+  }
 }
 
 export default App;

@@ -16,7 +16,6 @@ const Template5 = () => {
                     {img}
             </div>
             </div>
-
         </Fragment>
     )
 }

@@ -5,7 +5,7 @@ import './JECarousel.css'
 import travaux from '../../travaux';
 import visuel from '../../visuel'
 
-const JECarousel = ({sujet, categorie, id}) => {
+const JECarousel = ({requireImage, sujet, categorie, id}) => {
 
     const source = path => {
         if (path === 'mobilier') {
@@ -16,13 +16,6 @@ const JECarousel = ({sujet, categorie, id}) => {
             return visuel[categorie][id].modele2Carousel
         }
     },
-    requireImage = image => {
-        try {
-            return require(`../../images/${image}`)
-        } catch (err) {
-            return require(`../../images/logo.png`)
-        }
-    }, 
     img = source(sujet)
         .split(', ')
         .map(picture => 

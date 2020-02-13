@@ -2,15 +2,8 @@ import React, {Fragment} from 'react';
 import './Template4.css'
 import travaux from '../../travaux'
 
-const Template4 = () => {
+const Template4 = ({requireImage}) => {
     const img = travaux.interiorDesign.joy.verticales.split(', '),
-        requireImage = image => {
-            try {
-                return require(`../../images/${image}`)
-            } catch (err) {
-                return require(`../logo.png`)
-            }
-        },
         image = img.map(img => <img src={requireImage(img)} alt={img}></img>)
 
 
