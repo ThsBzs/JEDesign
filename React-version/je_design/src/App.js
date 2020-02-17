@@ -80,7 +80,11 @@ class App extends Component {
                     <Template1 sujet='visuel' categorie='produits' id='visuel3'/>
                     <JECarousel requireImage={this.requireImage} sujet='visuel' categorie='produits' id='visuel3' />
                 </Fragment> }/>
-              <Route path="/visuel/petit" component={() => <Containerhome sujet='visuel'/>} />
+              <Route path="/visuel/petit" component={() => 
+                <Fragment>
+                    <Template1 sujet='visuel' categorie='produits' id='visuel4'/>
+                    <JECarousel requireImage={this.requireImage} sujet='visuel' categorie='produits' id='visuel4' />
+                </Fragment> }/>
               {/* SKETCHES */}
               <Route exact path='/sketches' component={() => <Containerhome sujet='sketches'/>} />
               <Route path="/sketches/insectes" component={() => 

@@ -20,7 +20,6 @@
         align-items: center;
         min-width: 80%;
     }
-
 }
 
 .containerImgList{
@@ -40,7 +39,8 @@
     margin: 15px 15px;
     width: 28em;
     min-width: 25em;
-    height: 19em;
+    height: 21em;
+    vertical-align: middle;
 }
 
 
@@ -58,8 +58,6 @@
 
 .containerHomeImg:hover .homeLink>h3{
     display: block;
-
-    
 }
 
 .containerHomeText{

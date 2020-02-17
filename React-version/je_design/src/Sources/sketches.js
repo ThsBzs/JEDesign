@@ -6,7 +6,7 @@ const sketches = {
         },
         animauxHome:{
             link:'/sketches/animaux',
-            imgHome:'sketches/insectes',
+            imgHome:'sketches/animaux/WSanimaux1.jpg',
         },
         humainsHome:{
             link:'/sketches/humains',
@@ -15,8 +15,8 @@ const sketches = {
     },
     insectes:{
         images: 'sketches/insectes/WSinsect1.jpg, sketches/insectes/WSinsect2.jpg',
-        verticale:'sketches/insectes/WSinsect3.jpg',
-        modele2Carousel: 'sketches/insectes/WSinsect3v.jpg',
+        verticale:'sketches/insectes/WSinsect3v.jpg',
+        modele2Carousel: 'sketches/insectes/WSinsect3.jpg',
         content: 'Travaux de graphisme sur insectes'
     },
     insectes2:{

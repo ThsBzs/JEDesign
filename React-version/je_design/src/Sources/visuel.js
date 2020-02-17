@@ -14,8 +14,8 @@ const visuel = {
             link: '/visuel/mephich',
             images:'communicationVisuelle/mePhich/WSMePhich1.jpg, communicationVisuelle/mePhich/WSMePhich2.jpg',
             content:`Création d'un logo et recherches d'identité visuelle pour un restaurant de spécialités Vietnamiennes.`,
-            verticale:'communicationVisuelle/mePhich/WSMePhich4.jpg',
-            modele2Carousel:'communicationVisuelle/mePhich/WSMePhich3.jpg, communicationVisuelle/mePhich/WSMePhich5.jpg'
+            verticale:'communicationVisuelle/mePhich/WSMePhich3.jpg',
+            modele2Carousel:'communicationVisuelle/mePhich/WSMePhich4.jpg, communicationVisuelle/mePhich/WSMePhich5.jpg, communicationVisuelle/mePhich/WSMePhich6.jpg'
         },
         visuel3:{
             name:'Abyss - papier',
@@ -28,10 +28,13 @@ const visuel = {
             modele2Carousel:'communicationVisuelle/abyss/WSAbyss3.jpg, communicationVisuelle/abyss/WSAbyss4.jpg'
         },
         visuel4:{
-            name:`Petit - centre d'apprentissage des langues`,
+            name:`Petit Center`,
             link: '/visuel/petit',
-            imgHome: '',
-            images:''
+            imgHome: 'communicationVisuelle/petit/WSpetit0.jpg',
+            images:'communicationVisuelle/petit/WSpetit1.jpg, communicationVisuelle/petit/WSpetit2.jpg',
+            verticale:'communicationVisuelle/petit/WSpetit3.jpg',
+            content:`Création d'un logo pour un centre d'apprentissage des langues situé à Hanoï.`,
+            modele2Carousel:'communicationVisuelle/petit/WSpetit4.jpg, communicationVisuelle/petit/WSpetit5.jpg, communicationVisuelle/petit/WSpetit6.jpg'
         }
     }
 }
