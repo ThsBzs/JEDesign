@@ -10,14 +10,17 @@ import visuel from '../../Sources/visuel'
 const JECarousel = ({requireImage, sujet, categorie, id}) => {
 
     const source = path => {
-        if (path === 'mobilier') {
-            return travaux[categorie][id].modele2Carousel
-        } else if (path === 'produits') {
-            return travaux.produits[id].carrousel
-        } else if (path === 'visuel') {
-            return visuel[categorie][id].modele2Carousel
-        } else if (path === 'sketches') {
-            return sketches[id].modele2Carousel
+        switch (path) {
+            case 'mobilier':
+                return travaux[categorie][id].modele2Carousel
+            case 'produits':
+                return travaux.produits[id].carrousel
+            case 'visuel':
+                return visuel[categorie][id].modele2Carousel
+            case 'sketches':
+                return sketches[id].modele2Carousel
+            default:
+                return travaux[categorie][id].modele2Carousel
         }
     },
     img = source(sujet)

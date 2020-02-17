@@ -1,7 +1,6 @@
 import React, { Fragment, Component } from 'react'
 import Nav from './Components/Nav/Nav'
 import Home from './Components/Home/Home'
-import Construction from './Components/Construction/Construction'
 import Template1 from './Components/Template1/Template1'
 import Template2 from './Components/Template2/Template2'
 import Template3 from './Components/Template3/Template3'
