@@ -2,12 +2,15 @@ import React, { Fragment } from 'react';
 import './Template1.css';
 import travaux from '../../Sources/travaux'
 import visuel from '../../Sources/visuel'
+import sketches from '../../Sources/sketches'
 
 const Template1 = ({sujet, categorie, id}) => {
 
     const source = path => {
         if (path === 'visuel') {
             return visuel[categorie][id]
+        } else if (path ==='sketches'){
+            return sketches[id]
         } else {
             return travaux[categorie][id]
         }
@@ -26,7 +29,7 @@ const Template1 = ({sujet, categorie, id}) => {
         <Fragment>
             <div className="container1">
                 <div className='picture-container1'>
-                    <h2>{source(sujet).titleame}</h2>
+                    <h2>{source(sujet).name}</h2>
                     <ul className="pictures1">{image}</ul>
                 </div>
                 <div className='vertical1'>

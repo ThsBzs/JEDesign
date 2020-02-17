@@ -2,17 +2,26 @@ import React,  { Fragment } from 'react'
 import './Containerhome.css'
 import visuel from '../../Sources/visuel'
 import travaux from '../../Sources/travaux'
+import sketches from '../../Sources/sketches'
 
  const Containerhome = ({ sujet }) => {
 
     const source = path => {
-        if (path === 'travaux') {
-            return travaux.mobilier
-        } else if (path === 'visuel') {
-            return visuel.produits
-        }  else if (path === 'produits') {
-            return travaux.produits
+        switch (path) {
+            case 'travaux':
+                return travaux.mobilier
+            case 'visuel':
+                return visuel.produits
+            case 'produits':
+                return travaux.produits
+            case 'interiorHome':
+                return travaux.interiorHome
+            case 'sketches':
+                return sketches.sketchesHome
+            default:
+                return travaux.mobilier
         }
+        
     },
     arr = source(sujet),
     requireImage = path => {

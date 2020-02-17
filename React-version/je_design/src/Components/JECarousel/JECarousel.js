@@ -17,7 +17,7 @@ const JECarousel = ({requireImage, sujet, categorie, id}) => {
         } else if (path === 'visuel') {
             return visuel[categorie][id].modele2Carousel
         } else if (path === 'sketches') {
-            return sketches[categorie][id].modele2Carousel
+            return sketches[id].modele2Carousel
         }
     },
     img = source(sujet)

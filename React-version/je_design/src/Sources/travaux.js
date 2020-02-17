@@ -1,5 +1,5 @@
 //Liste du mobilier, utilisée pour remplir les pages
-const travaux = {
+export const travaux = {
     mobilierHome: {//
         name:'Mobilier',
         images: 'mobilier/console/WSconsole1.jpg, mobilier/chevet/WSchevet1.jpg, mobilier/sdb/WSsdb1.jpg, mobilier/fauteuil/WSfauteuil1.jpg',
@@ -104,8 +104,8 @@ const travaux = {
         produit2:{
             link:"/products/corbeille",
             imgHome:'produits/corbeille/WScorbeille2.jpg',
-            title: 'CORBEILLE',
-            name : 'Corbeille à papier, bambou tourné et laque.',
+            title: 'Corbeille à papier, bambou tourné et laque.',
+            name : 'CORBEILLE',
             images: 'produits/corbeille/WScorbeille1.jpg, produits/corbeille/WScorbeille2.jpg',
             verticale:'produits/corbeille/WScorbeille3.jpg',
             content: 'Corbeille artisanale reprenant la technique traditionnelle du bambou tourné. Designé pour Ynot © '
@@ -113,8 +113,8 @@ const travaux = {
         produit3:{
             link:"/products/porte_savon",
             imgHome:'produits/porte_savon/WSsoap5.jpg',
-            title: 'PORTE SAVON',
-            name : 'Porte savon en céramique émaillée, grille en bambou.',
+            title: 'Porte savon en céramique émaillée, grille en bambou.',
+            name : 'PORTE SAVON',
             images: 'produits/porte_savon/WSsoap1.jpg, produits/porte_savon/WSsoap2.jpg',
             verticale:'produits/porte_savon/WSsoap3.jpg',
             content: 'Avec son look 50’s, cette console apporte une esthétique rétro-revisité. Son système d’ouverture de tiroirs en poignées encastrées en forme de croissant offre un côté graphique et épuré. Piétement incliné avec barreaux renforts en traverse apparents.',
@@ -123,12 +123,22 @@ const travaux = {
         produit4:{
             link:"/products/bougie",
             imgHome:'produits/bougie/WSbougie1.jpg',
-            title: 'SUPPORT BOUGIE',
-            name : 'Support à bougie en laiton.',
+            title: 'Support à bougie en laiton.',
+            name : 'SUPPORT BOUGIE',
             images: 'produits/bougie/WSbougie1.jpg, produits/bougie/WSbougie2.jpg',
             verticale:'produits/bougie/WSbougie3.jpg',
             content: 'Designé pour Ynot ©.'
         },
+    },
+    interiorHome: {
+        joyHome:{
+            link:"/interior/resto",
+            imgHome:'interiorDesign/joy/WSJoy3.jpg'
+        },
+        waffleHome:{
+            link:"/interior/waffle",
+            imgHome:'interiorDesign/waffle/WSwannawaffle8.jpg',
+        }
     },
     interiorDesign:{
         joy:{
@@ -146,6 +156,19 @@ const travaux = {
             modele2: 'interiorDesign/joy/WSJoy4.jpg',
             modele2Carousel: 'interiorDesign/joy/carousel/WSJoyC4.jpg, interiorDesign/joy/carousel/WSJoyC5.jpg',
             modele2Content: `REZ-DE-CHAUSSEE : L’espace étant disposé en enfilade, le concept a été de déstructurer les perspectives avec des motifs créés par le parquet au sol. Les tables sont réparties dans des espaces définis par les 3 alcôves latérales et par des démarcations de parquet au sol. Le design est structuré autour de 4 éléments principaux : le bar, la cave à vin, les voûtes et l’escalier. Le bar en bois et laiton accueille et ouvre la perspective de la salle avec ses motifs filés en quinconce. Contenant les grands crus du restaurant, la cave à vin possède une place centrale dans la pièce. Elle permet de ritualiser le service des grands crus par les sommeliers. Chaque geste devient visible, les bouteilles sont comme dans un écrin de verre. Pour renforcer l’importance de la cave à vin, la hauteur de plafond a été abaissée et prolongée jusqu’au bar. Un plaquage en bois a aussi été intégré pour l’encadrer visuellement. Au fond de la salle, l’escalier permet d’accéder aux étages supérieurs. Il a bénéficié d’une attention particulière pour s’intégrer au design global. Dessiné comme prolongement de la pièce, il reprend le béton ciré des murs et intègre une rampe en bois brut. Le motif créé par la découpe de l’escalier participe à la déstructuration de l’espace.`
+        },
+        waffle:{
+            images: 'interiorDesign/waffle/WSwannawaffle1.jpg, interiorDesign/waffle/WSwannawaffle2.jpg',
+            modele2Carousel:'interiorDesign/waffle/WSwannawaffle4.jpg',
+            images3:'interiorDesign/waffle/WSwannawaffle8.jpg, interiorDesign/waffle/WSwannawaffle9.jpg, interiorDesign/waffle/WSwannawaffle10.jpg',
+            content: 'Wanna Waffle? est un bar à gauffres d’Hanoï',
+            content3:'De larges banquettes, de belles tablées, un espace de partage et de détente.',
+            verticale: 'interiorDesign/waffle/WSwannawaffle3.jpg'
+        },
+        waffle2:{
+            images:'interiorDesign/waffle/WSwannawaffle5.jpg, interiorDesign/waffle/WSwannawaffle6.jpg',
+            verticale:'interiorDesign/waffle/WSwannawaffle7.jpg',
+            content:'Espace lumineux, salon de thé cosy.'
         }
     }
 }

@@ -25,6 +25,7 @@ const Nav = () => (
                     <a href="/interior">Design intérieur</a>
                     <ul className="sous-menu">
                         <a href="/interior/resto"><li className="resto">Restaurant Joy + - Hanoï</li></a>
+                        <a href="/interior/waffle"><li className="waffle">Wanna Waffle</li></a>
                     </ul> 
                 </li>
                 <li className="nav-menu">
@@ -45,7 +46,14 @@ const Nav = () => (
                         <a href="/visuel/petit"><li className="petit">Petit - Centre d'apprentissage des langues</li></a>
                     </ul> 
                 </li>
-                <li><a href="/sketches">Sketches</a></li>
+                <li className="nav-menu">
+                    <a href="/sketches">Sketches</a>
+                    <ul className="sous-menu">
+                        <a href="/sketches/insectes"><li className="insectes">Insectes</li></a>
+                        <a href="/sketches/animaux"><li className="animaux">Animaux</li></a>
+                        <a href="/sketches/humains"><li className="humains">Humains</li></a>
+                    </ul> 
+                </li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
