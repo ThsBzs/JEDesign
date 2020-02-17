@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './Template3.css';
-import travaux from '../../travaux'
+import travaux from '../../Sources/travaux'
 
 
 const Template3 = ({requireImage, categorie, id}) => {

@@ -27,7 +27,15 @@ const Nav = () => (
                         <a href="/interior/resto"><li className="resto">Restaurant Joy + - Hanoï</li></a>
                     </ul> 
                 </li>
-                <li><a href="/products">Produits</a></li>
+                <li className="nav-menu">
+                    <a href="/products">Produits</a>
+                    <ul className="sous-menu">
+                        <a href="/products/pyrrhos"><li className="pyrrhos">Poêle à bois</li></a>
+                        <a href="/products/corbeille"><li className="corbeille">Corbeille</li></a>
+                        <a href="/products/porte_savon"><li className="savon">Porte-savon</li></a>
+                        <a href="/products/bougie"><li className="bougie">Support bougie</li></a>
+                    </ul> 
+                </li>
                 <li className="nav-menu">
                     <a href="/visuel">Communication visuelle</a>
                     <ul className="sous-menu">

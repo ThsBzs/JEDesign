@@ -21,7 +21,7 @@ class App extends Component {
     }
   }
 
-    render () {
+  render () {
     return (
       <Fragment>
         <Nav />
@@ -42,9 +42,18 @@ class App extends Component {
               {/* DESIGN INTERIEUR */}
               <Route path="/interior" component={() => <Joy requireImage={this.requireImage} categorie='interiorDesign' id='joy'/>} />
               {/* PRODUITS */}
-              <Route exact path="/products" component={() => 
+              <Route exact path="/products" component={() => <Containerhome sujet='produits' />} />
+              <Route path="/products/corbeille" component={() => <Template1  categorie='produits' id='produit2' />} />
+              <Route path="/products/porte_savon" component={() => 
                 <Fragment>
-                  <JECarousel requireImage={this.requireImage} sujet='produits' />
+                  <Template1  categorie='produits' id='produit3' />
+                  <JECarousel requireImage={this.requireImage} sujet='produits'id='produit3' />
+                </Fragment>} 
+              />
+              <Route path="/products/bougie" component={() => <Template1  categorie='produits' id='produit4' />} />
+              <Route path="/products/pyrrhos" component={() => 
+                <Fragment>
+                  <JECarousel requireImage={this.requireImage} sujet='produits'id='produit1' />
                   <Template1  sujet='joy' categorie='produits' id='produit1' /> 
                   <Template2 categorie='produits' id='produit1'/> 
                 </Fragment> }

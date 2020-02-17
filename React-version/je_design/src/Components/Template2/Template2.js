@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './Template2.css';
-import travaux from '../../travaux'
+import travaux from '../../Sources/travaux'
 
 const Template2 = ({categorie, id}) => {
     const text = travaux[categorie][id].modele2Content

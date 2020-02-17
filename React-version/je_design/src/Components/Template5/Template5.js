@@ -1,13 +1,12 @@
 import React, {Fragment} from 'react';
 import './Template5.css'
-import travaux from '../../travaux'
+import travaux from '../../Sources/travaux'
 
 const Template5 = () => {
 
     const img = travaux.produits.produit1.recherches
         .split(', ')
         .map(item => <img src={require(`../../images/${item}`)} alt={item} key={item}></img>)
-    
 
     return (
         <Fragment>

@@ -1,7 +1,7 @@
 import React,  { Fragment } from 'react'
 import './Containerhome.css'
-import visuel from '../../visuel'
-import travaux from '../../travaux'
+import visuel from '../../Sources/visuel'
+import travaux from '../../Sources/travaux'
 
  const Containerhome = ({ sujet }) => {
 
@@ -10,6 +10,8 @@ import travaux from '../../travaux'
             return travaux.mobilier
         } else if (path === 'visuel') {
             return visuel.produits
+        }  else if (path === 'produits') {
+            return travaux.produits
         }
     },
     arr = source(sujet),
