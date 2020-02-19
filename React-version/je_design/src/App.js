@@ -64,7 +64,7 @@ class App extends Component {
                 <Fragment>
                   <JECarousel requireImage={this.requireImage} sujet='produits' id='produit1' />
                   <Template1 categorie='produits' id='produit1' /> 
-                  <Template2 categorie='produits' id='produit1'/> 
+                  <Template2 requireImage={this.requireImage} categorie='produits' id='produit1'/> 
                 </Fragment> }
               />
               {/* COM VISUELLE */}

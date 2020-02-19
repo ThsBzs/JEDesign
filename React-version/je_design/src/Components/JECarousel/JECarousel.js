@@ -26,7 +26,7 @@ const JECarousel = ({requireImage, sujet, categorie, id}) => {
     img = source(sujet)
         .split(', ')
         .map(picture => 
-            <div>
+            <div key = {picture}>
                 <img 
                     src={requireImage(picture)} 
                     alt={picture}>

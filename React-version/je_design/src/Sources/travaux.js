@@ -93,7 +93,7 @@ export const travaux = {
     },
     produits:{
         produit1:{
-            link: '/products/pyrrhos',
+            link: '/products/poele',
             imgHome:'produits/pyrros/WSpyrros1.jpg',
             title: 'PYRRHOS',
             name: 'Poêle à bois',

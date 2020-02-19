@@ -10,9 +10,9 @@ const Joy = ({requireImage, categorie, id}) => {
 
     return (
         <Fragment>
-            <Template2 categorie={categorie} id={id}/>
+            <Template2 requireImage={requireImage} categorie={categorie} id={id}/>
             <Template1 categorie={categorie} id={id}/>
-            <Template2 categorie={categorie} id={'joy2'}/>
+            <Template2 requireImage={requireImage} categorie={categorie} id={'joy2'}/>
             <JECarousel requireImage={requireImage} sujet={'mobilier'} categorie={categorie} id={'joy2'}/>
             <Template3 requireImage={requireImage} categorie={categorie} id={id}/>
             <Template4 requireImage={requireImage} />
