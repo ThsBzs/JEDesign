@@ -21,7 +21,6 @@ import sketches from '../../Sources/sketches'
             default:
                 return travaux.mobilier
         }
-        
     },
     arr = source(sujet),
     requireImage = path => {
@@ -43,10 +42,12 @@ import sketches from '../../Sources/sketches'
                 <ul className='containerImgList'>
                     {Object.keys(arr).map(key => requireImage(arr[key]))}
                 </ul>
-                <div className='containerHomeText'>
-                        <p>Des meubles pensés pour durer.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Ornare lectus sit amet est placerat.</p>
-                </div>
+                { sujet === 'travaux' &&
+                    <div className='containerHomeText'>
+                        <p>{travaux.mobilierHome.content}</p>
+                    </div>
+                }
+
             </div>
         </Fragment>
     )

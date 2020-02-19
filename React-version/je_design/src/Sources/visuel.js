@@ -1,39 +1,47 @@
 const visuel = {
     produits:{
         visuel1:{
-            name:'Carte de visite - photographe',
+            name:'Carte de visite - Tanie Finelli',
             imgHome: 'communicationVisuelle/carte/WSCarte1.jpg',
             link: '/visuel/carte',
-            content:`Création, en collaboration avec la cliente, d'une carte de visite sur papier épais.`,
+            content:`Conception d’une carte de visite pour photographe indépendante. Esthétique reprenant les codes des débuts de la photographie du XIXe siècle. Dimensions : 8.5 x 5.4 cm
+            Papier Kraft 350g
+            Recto : Quadri couleur, gaufrage
+            Verso : Quadri couleur simple `,
             images:'communicationVisuelle/carte/WSCarte1.jpg, communicationVisuelle/carte/WSCarte2.jpg',
             verticale:'communicationVisuelle/carte/WSCarte3.jpg'
         },
         visuel2:{
-            name:'Restaurant MePhich',
+            name:'Création de logotype pour le restaurant Me Phich, Dac Lak, Vietnam. ',
             imgHome: 'communicationVisuelle/mePhich/WSMePhich1.jpg',
             link: '/visuel/mephich',
             images:'communicationVisuelle/mePhich/WSMePhich1.jpg, communicationVisuelle/mePhich/WSMePhich2.jpg',
-            content:`Création d'un logo et recherches d'identité visuelle pour un restaurant de spécialités Vietnamiennes.`,
+            content:`Le restaurant propose de la restauration rapide avec des petits plats maison et des produits naturels. 
+            Le logotype est inspiré des éléments constituant la base de la préparation des sauces dans la cuisine vietnamienne : le piment, le sel, les feuilles de 'La Thom' et le citron vert. Le symbole du feu de cuisson est associé au piment et à la feuille comme conceptualisation de la notion d’aromates et de naturel.
+            Les couleurs reprennent également la dominante colorée des plats préparés au restaurant. La construction se veut pyramidale pour le dynamisme de la restauration rapide. `,
             verticale:'communicationVisuelle/mePhich/WSMePhich3.jpg',
             modele2Carousel:'communicationVisuelle/mePhich/WSMePhich4.jpg, communicationVisuelle/mePhich/WSMePhich5.jpg, communicationVisuelle/mePhich/WSMePhich6.jpg'
         },
         visuel3:{
-            name:'Abyss - papier',
+            name:'Concours Design Arjo Wiggings 2010',
             imgHome: 'communicationVisuelle/abyss/WSAbyss1.jpg',
             link: '/visuel/abyss',
             title:'Travail de création',
             images:'communicationVisuelle/abyss/WSAbyss1.jpg, communicationVisuelle/abyss/WSAbyss2.jpg',
             verticale:'communicationVisuelle/abyss/WSAbyss5.jpg',
-            content:`Recherche de scénographie pour mise en scène de papiers de luxe, création réalisée dans le cadre d'un coucours proposé par le fabricant.`,
+            content:`Create your own curious story : Créer un imaginaire en papier
+            Création d'un univers onirique transcrivant les propriétés physiques et symboliques du papier. Le monde abyssal fait écho à l'inconnu et à la diversité, à la forme surgissant du vide. Les volumes sont dessinés pour inspirer un sentiment de légèreté et de transparence. La matière est traitée de manière graphique, l'objet se fait motif, volute, esquisse. L'éclairage joue sur le visible et l'invisible, les formes semblent en mouvement et créent un parcours visuel dynamique à l’image de la marque.`,
             modele2Carousel:'communicationVisuelle/abyss/WSAbyss3.jpg, communicationVisuelle/abyss/WSAbyss4.jpg'
         },
         visuel4:{
-            name:`Petit Center`,
+            name:`Centre d'apprentissage de langues "Petit Center"`,
             link: '/visuel/petit',
             imgHome: 'communicationVisuelle/petit/WSpetit0.jpg',
             images:'communicationVisuelle/petit/WSpetit1.jpg, communicationVisuelle/petit/WSpetit2.jpg',
             verticale:'communicationVisuelle/petit/WSpetit3.jpg',
-            content:`Création d'un logo pour un centre d'apprentissage des langues situé à Hanoï.`,
+            content:`Création d'un logotype pour l'école de langues "Petit Center" située à Buon Ma Thuot au Vietnam. 
+            Le logo reprend l’image de la fleur de lotus, dont la symbolique asiatique est associée à la connaissance et à l’élévation. Pour renforcer cette connotation et la mettre en lien avec le domaine de l’éducation, le symbole du livre est également présent. Le logo est à la fois une fleur de lotus et un livre ouvert, constitué en partie par les cinq pétales de la fleur.
+            `,
             modele2Carousel:'communicationVisuelle/petit/WSpetit4.jpg, communicationVisuelle/petit/WSpetit5.jpg, communicationVisuelle/petit/WSpetit6.jpg'
         }
     }

@@ -31,7 +31,7 @@ const Nav = () => (
                 <li className="nav-menu">
                     <a href="/products">Produits</a>
                     <ul className="sous-menu">
-                        <a href="/products/pyrrhos"><li className="pyrrhos">Poêle à bois</li></a>
+                        <a href="/products/poele"><li className="pyrrhos">Poêle à bois</li></a>
                         <a href="/products/corbeille"><li className="corbeille">Corbeille</li></a>
                         <a href="/products/porte_savon"><li className="savon">Porte-savon</li></a>
                         <a href="/products/bougie"><li className="bougie">Support bougie</li></a>
@@ -57,7 +57,6 @@ const Nav = () => (
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
-        
     </Fragment>
 )
 

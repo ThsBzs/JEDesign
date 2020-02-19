@@ -27,9 +27,9 @@ const Template1 = ({sujet, categorie, id}) => {
         
     return(
         <Fragment>
+            <h2 className='title1'>{source(sujet).name}</h2>
             <div className="container1">
                 <div className='picture-container1'>
-                    <h2>{source(sujet).name}</h2>
                     <ul className="pictures1">{image}</ul>
                 </div>
                 <div className='vertical1'>

@@ -17,7 +17,9 @@ const sketches = {
         images: 'sketches/insectes/WSinsect1.jpg, sketches/insectes/WSinsect2.jpg',
         verticale:'sketches/insectes/WSinsect3v.jpg',
         modele2Carousel: 'sketches/insectes/WSinsect3.jpg',
-        content: 'Travaux de graphisme sur insectes'
+        content: `CROQUIS INSECTES
+        Série de croquis autour du thème des insectes. Source d’inspiration par les formes, les motifs, les insectes proposent un imaginaire riche et singulier.
+        Réalisations au porte mine. `
     },
     insectes2:{
         modele2Carousel: 'sketches/insectes/WSinsect4.jpg, sketches/insectes/WSinsect5.jpg, sketches/insectes/WSinsect6.jpg, sketches/insectes/WSinsect7.jpg, sketches/insectes/WSinsect8.jpg'
@@ -29,7 +31,11 @@ const sketches = {
         images: 'sketches/persos/WSperso1a.jpg, sketches/persos/WSperso2a.jpg',
         verticale:'sketches/persos/WSperso3a.jpg',
         modele2Carousel: 'sketches/persos/WSperso1.jpg, sketches/persos/WSperso2.jpg, sketches/persos/WSperso3.jpg, sketches/persos/WSperso4.jpg, sketches/persos/WSperso5.jpg, sketches/persos/WSperso6.jpg',
-        content: 'Croquis, caricatures...'
+        content: `CROQUIS PERSONNAGES
+        Série de croquis de personnages provenant d’esquisses et carnets de croquis. 
+        Caricatures, dessins au trait. 
+        Recherches autour d’expressions, d’attitudes qui caractérisent et singularisent chaque personnage.
+        Réalisation au crayon et porte mine.`
     }
 }
 

@@ -10,6 +10,19 @@
     align-items: center;
     margin-bottom: 15px;
   }
+
+
+/*Titre*/
+.title1{
+  margin-left: 310px;
+  margin-bottom: -10px;
+}
+
+@media (max-width : 1098px){
+  .title1{
+    display: none;
+  }
+}
   
 /*Container images*/
 .picture-container1, .pictures1{
@@ -27,14 +40,10 @@
   margin-right: 5px;
 }
 
-.picture-container1>h2{
-  margin-left: -160px;
-  min-height: 23px;
-}
+
 
 .pictures1{
   padding: 0px;
-  margin-top: -10px;
 }
 
 .pictures1>li, .vertical1{
@@ -75,7 +84,7 @@
   min-width: 20em;
   max-width: 22em;
   overflow: hidden;
-  margin : 45px 0px 4px 20px;
+  margin : 0px 0px 4px 20px;
 }
 
 .vertical1>img{
@@ -94,6 +103,8 @@
   width: 20%;
   min-width: 300px;
   margin-left: 45px;
+  max-height: 24em;
+  overflow-y: auto;
 }
 à
   

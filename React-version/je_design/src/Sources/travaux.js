@@ -1,8 +1,11 @@
 //Liste du mobilier, utilisée pour remplir les pages
 export const travaux = {
-    mobilierHome: {//
+    mobilierHome: {
         name:'Mobilier',
         images: 'mobilier/console/WSconsole1.jpg, mobilier/chevet/WSchevet1.jpg, mobilier/sdb/WSsdb1.jpg, mobilier/fauteuil/WSfauteuil1.jpg',
+        content: `Conception de mobilier standard et sur mesure destinée à des particuliers ou professionnels de la restauration, de l’hôtellerie, boutiques, ambassades.
+        Réalisation artisanale et utilisation de matériaux naturels.
+        Mise en place de processus permettant la réalisation en moyenne série par un tissu artisanal.`
     },
     mobilier:{
         /*Objet-type :
@@ -98,7 +101,7 @@ export const travaux = {
             verticale:'produits/pyrros/WSpyrros3v.jpg',
             content: 'Ce poêle à bois est une réflexion sur la place du foyer au sein de l’habitat. Il est conçu pour se placer dans les coins de la maison afin de rompre avec la connotation d’espace mort des angles. Les deux branches latérales peuvent servir d’assises et peuvent abriter les bûches tout en les séchant pour réduire leur taux d’humidité. ',
             modele2: 'produits/pyrros/WSpyrros4.jpg',
-            modele2Content:'Pyrrhos est un poêle à bois conçu pour venir épouser le coin d’une pièce. Le foyer à toujours possédé un rôle central dans l’habitat. Il rassemble et confère une ambiance rassurante. Se servir de ses caractéristiques pour dynamiser les angles de l’habitat qui selon G. Bachelard ne sont que froideur et répulsifs, apporte une solution pour réhabiliter des espaces rarement mis à profit. Pyrrhos, plus qu’un poêle, intègre les usages et rituels de l’homme autour de l’élément feu. Venir s’asseoir autour du foyer à la manière d’un feu de camp, choisir la distance d’assise pour être plus ou moins réchauffé, instaurer un espace convivial… Ces éléments ont inspiré la forme de ce poêle. La structure séparée en deux branches permet à plusieurs personnes de bénéficier d’une chaleur indirecte, et de chauffer plus rapidement les murs de l’habitation. Cette chaleur retransmise en partie par les assises est également mise à profit pour servir de rangement du bois. Elle garde et fait sécher les buches pour une combustion idéale. La forme du poêle est constituée de formes simples, répétées entre elles, réfléchies pour simplifier le moulage et diminuer le coût de production.',
+            modele2Content:'Pyrrhos est un poêle à bois conçu pour venir épouser le coin d’une pièce. Le foyer à toujours possédé un rôle central dans l’habitat. Il rassemble et confère une ambiance rassurante. Se servir de ses caractéristiques pour dynamiser les angles de l’habitat qui selon G. Bachelard ne sont que froideur et répulsifs, apporte une solution pour réhabiliter des espaces rarement mis à profit. Pyrrhos, plus qu’un poêle, intègre les usages et rituels de l’homme autour de l’élément feu. Venir s’asseoir autour du foyer à la manière d’un feu de camp, choisir la distance d’assise pour être plus ou moins réchauffé, instaurer un espace convivial… Ces éléments ont inspiré la forme de ce poêle. La structure séparée en deux branches permet à plusieurs personnes de bénéficier d’une chaleur indirecte, et de chauffer plus rapidement les murs de l’habitation. Cette chaleur retransmise en partie par les assises est également mise à profit pour servir de rangement du bois. Elle garde et fait sécher les buches pour une combustion idéale. La forme du poêle est constituée de formes simples, répétées entre elles, réfléchies pour simplifier le moulage et diminuer le coût de production.  Détails techniques : les branches des assises sont séparées physiquement du poêle par des pierres thermiques noires. Encastrées dans la fonte, les pierres freinent la conduction de chaleur et permettent aux assises une température confortable. Un système de fixation murale par vis est présent sous chaque branche d’assise. ',
             carrousel: 'produits/pyrros/WSplanche1.jpg, produits/pyrros/WSplanche2.jpg, produits/pyrros/WSplanche3.jpg'
         },
         produit2:{
@@ -147,10 +150,21 @@ export const travaux = {
             content: 'Le bâtiment est composé de 4 étages. Une entrée en bois accueille le visiteur et vient créer un sentiment de mystère avec un corridor filant jusqu’à la porte en verre à l’entrée du restaurant. Deux petites terrasses extérieures sont situées de chaque côté du couloir en bois et accessibles par deux ouvertures latérales. Le rez-de-chaussée est dédié au bar et a une salle de restaurant commune. Le premier et deuxième étage possèdent chacun deux salles privatives et commodités. Le quatrième étage est réservé aux cuisines.',
             content3:'1 er ETAGE : Salles de restaurant fournissant un espace supplémentaire pour la clientèle. On retrouve les matériaux utilisés pour le rez-de-chaussée avec les murs en brique naturelle, Le béton ciré pour le sol, le bois brut et le métal noir pour les plafonds. Afin de reprendre l’aspect graphique, un mur reprend le motif du bar et de l’entrée du restaurant avec des morceaux de bois assemblés. Des étagères viennent s’y incruster discrètement pour recevoir de la décoration. De grandes photographies de vin apportent une touche de couleur contemporaine. Chaque salle possède un espace de préparation pour permettre au personnel de stocker les outils, bouteilles et de faire de la préparation d’appoint.',
             modele2: 'interiorDesign/joy/WSJoy1.jpg',
-            modele2Content: 'Restaurant / Bar à vin. Yen Hoa, Hanoï. Conception de l’intérieur design du restaurant gastronomique Joy +. Mise en place d’ambiances et d’atmosphères en rapport avec le domaine du vin. Ambiances tamisées, voûtes, matériaux bruts (béton ciré, briques, bois, métal).  Designé pour Ynot ©',
+            modele2Content: `Restaurant / Bar à vin. Yen Hoa, Hanoï. Conception de l’intérieur design du restaurant gastronomique Joy +. Mise en place d’ambiances et d’atmosphères en rapport avec le domaine du vin. Ambiances tamisées, voûtes, matériaux bruts (béton ciré, briques, bois, métal).  Designé pour Ynot ©`,
             verticale: 'interiorDesign/joy/WSJoy0.jpg',
             verticales:'interiorDesign/joy/WSJoyV1.jpg, interiorDesign/joy/WSJoyV2.jpg, interiorDesign/joy/WSJoyV3.jpg, interiorDesign/joy/WSJoyV4.jpg',
-            modele4Content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus dolor purus non enim. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Ornare lectus sit amet est placerat.'
+            modele4Content:`ESPACES ANNEXES
+            Designés pour rester cohérents avec l’ensemble du restaurant, les couloirs et toilettes respectifs de
+            chaque étage reprennent les codes visuels attribués aux différentes salles.
+            Le premier étage se voit attribuer une atmosphère autour du métal. Quatre panneaux repercés en
+            laiton vieilli viennent habiller le couloir. Les motifs gravés représentent des détails de verres à vin
+            remplis. Les toilettes reprennent l’aspect métallique avec un pan de mur en carreaux de cuivre. Cette
+            inspiration métallique renvoie aux outils utilisés pour le vin, aux alambics, robinets, cuves et bassines
+            traditionnelles.
+            Le deuxième étage reprend les motifs de bois, allusions aux fûts et tonneaux à vin. Un pan de mur est
+            agrémenté de panneaux de bois avec une découpe en métal noir représentant les vignobles escarpés
+            du Roussillon. Les toilettes reprennent les motifs en bois avec un pan de mur et l’intégralité du
+            plafond pour dynamiser l’espace.`
         },
         joy2:{
             modele2: 'interiorDesign/joy/WSJoy4.jpg',
@@ -161,14 +175,21 @@ export const travaux = {
             images: 'interiorDesign/waffle/WSwannawaffle1.jpg, interiorDesign/waffle/WSwannawaffle2.jpg',
             modele2Carousel:'interiorDesign/waffle/WSwannawaffle4.jpg',
             images3:'interiorDesign/waffle/WSwannawaffle8.jpg, interiorDesign/waffle/WSwannawaffle9.jpg, interiorDesign/waffle/WSwannawaffle10.jpg',
-            content: 'Wanna Waffle? est un bar à gauffres d’Hanoï',
-            content3:'De larges banquettes, de belles tablées, un espace de partage et de détente.',
+            content: `Restaurant / bar à gaufres, 27 Dinh Tien Hoang, Hanoï.
+            Conception de l’intérieur design et du mobilier du restaurant Wannawaffle. 
+            Le bâtiment originel est une ancienne demeure de style colonial construite sur le modèle des maisons « tubes » vietnamiennes. Ces maisons tubes sont des maisons très étroites – dont la largeur équivaut à une seule pièce et dont la superficie est distribuée sur la longueur. Situé aux deux derniers étages du bâtiment, le restaurant possède 2 salles par étages séparées par un escalier et palier central.
+            La structure du bâtiment ne pouvant être modifiée, des solutions ingénieuses ont été mises en place pour légitimer et valoriser les différents espaces.
+            Pour cela, chaque pièce a été conçue avec son identité propre.
+            Le design a été défini en tenant compte des dimensions et des caractéristiques de chaque salle (luminosité, dimension, vue…). Cela crée des espaces boudoirs avec pour chacun, une manière différente de consommer (sur le pouce, cosy, restauration classique).`,
+            content3:`La conception de cette salle s’est organisée autour d’une contrainte majeure. L’espace réduit devait intégrer un système de ventilation venant des cuisines. La solution apportée, pour ne pas perdre d’espace, a été de créer un cadre comprenant les tuyaux d’évacuation. Ce cadre a été mis à profit en créant une alcôve avec banquette encastrée, renforçant l’aspect cocooning de la pièce. Pour marquer cet aspect, un plaquage a été réalisé avec du vieux bois sur le mur attenant et en choisissant une peinture murale sombre. L’attention est donc portée sur l’espace des assises, agrémenté de décoration et coussins aux couleurs vives.
+            `,
             verticale: 'interiorDesign/waffle/WSwannawaffle3.jpg'
         },
         waffle2:{
             images:'interiorDesign/waffle/WSwannawaffle5.jpg, interiorDesign/waffle/WSwannawaffle6.jpg',
             verticale:'interiorDesign/waffle/WSwannawaffle7.jpg',
-            content:'Espace lumineux, salon de thé cosy.'
+            content:`Utilisant des matériaux bruts (vieux bois, ardoise, rotin tressé), cette salle de restaurant a été conçue sur un modèle zen et naturel. Ses assises en mobilier semi rigide et sa disposition en font une salle adaptée pour travailler en coworking tout en prenant des consommations légères. 
+            Son nombre de place plus restreint et sa disposition au dernier étage participent également à en faire un espace plus calme.`
         }
     }
 }
