@@ -24,8 +24,8 @@ class App extends Component {
   render () {
     return (
       <Fragment>
-        <Nav />
         <BrowserRouter>
+        <Nav />
             <Switch>
               {/*ACCUEIL*/}
               <Route exact path='/' component={Home}/>
