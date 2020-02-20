@@ -99,10 +99,6 @@
   background-color: #261f28;
 }
     
-/* .nav-menu:hover>.sous-menu{
-  transition: 200ms;
-  display: block;
-} */
 
 .burger-menu{
   display: none;
@@ -110,14 +106,14 @@
 /*-------------------------------------------------
                     RESPONSIVE
 --------------------------------------------------*/
-@media (max-width: 1644px){
+@media (max-width: 1784px){
   .nav-links > li > a{
     transition: 200ms;
-    margin: auto 1em;
+    margin: auto 1.5em;
   }
 }
 
-@media (max-width: 1182px){
+@media (max-width: 1224px){
   .nav-links > li > a{
     transition: 200ms;
     margin: auto 0.3em;

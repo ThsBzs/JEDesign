@@ -32,9 +32,7 @@ const sketches = {
         verticale:'sketches/persos/WSperso3a.jpg',
         modele2Carousel: 'sketches/persos/WSperso1.jpg, sketches/persos/WSperso2.jpg, sketches/persos/WSperso3.jpg, sketches/persos/WSperso4.jpg, sketches/persos/WSperso5.jpg, sketches/persos/WSperso6.jpg',
         content: `CROQUIS PERSONNAGES
-        Série de croquis de personnages provenant d’esquisses et carnets de croquis. 
-        Caricatures, dessins au trait. 
-        Recherches autour d’expressions, d’attitudes qui caractérisent et singularisent chaque personnage.
+        Série de croquis de personnages provenant d’esquisses et carnets de croquis. Caricatures, dessins au trait. \nRecherches autour d’expressions, d’attitudes qui caractérisent et singularisent chaque personnage.
         Réalisation au crayon et porte mine.`
     }
 }
