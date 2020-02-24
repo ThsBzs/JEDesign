@@ -155,12 +155,12 @@ export const travaux = {
             verticales:'interiorDesign/joy/WSJoyV1.jpg, interiorDesign/joy/WSJoyV2.jpg, interiorDesign/joy/WSJoyV3.jpg, interiorDesign/joy/WSJoyV4.jpg',
             modele4Content:`ESPACES ANNEXES
             Designés pour rester cohérents avec l’ensemble du restaurant, les couloirs et toilettes respectifs de
-            chaque étage reprennent les codes visuels attribués aux différentes salles.
+            chaque étage reprennent les codes visuels attribués aux différentes salles. \n
             Le premier étage se voit attribuer une atmosphère autour du métal. Quatre panneaux repercés en
             laiton vieilli viennent habiller le couloir. Les motifs gravés représentent des détails de verres à vin
             remplis. Les toilettes reprennent l’aspect métallique avec un pan de mur en carreaux de cuivre. Cette
             inspiration métallique renvoie aux outils utilisés pour le vin, aux alambics, robinets, cuves et bassines
-            traditionnelles.
+            traditionnelles.\n
             Le deuxième étage reprend les motifs de bois, allusions aux fûts et tonneaux à vin. Un pan de mur est
             agrémenté de panneaux de bois avec une découpe en métal noir représentant les vignobles escarpés
             du Roussillon. Les toilettes reprennent les motifs en bois avec un pan de mur et l’intégralité du
@@ -176,9 +176,9 @@ export const travaux = {
             modele2Carousel:'interiorDesign/waffle/WSwannawaffle4.jpg',
             images3:'interiorDesign/waffle/WSwannawaffle8.jpg, interiorDesign/waffle/WSwannawaffle9.jpg, interiorDesign/waffle/WSwannawaffle10.jpg',
             content: `Restaurant / bar à gaufres, 27 Dinh Tien Hoang, Hanoï.
-            Conception de l’intérieur design et du mobilier du restaurant Wannawaffle. 
+            Conception de l’intérieur design et du mobilier du restaurant WannaWaffle. \n
             Le bâtiment originel est une ancienne demeure de style colonial construite sur le modèle des maisons « tubes » vietnamiennes. Ces maisons tubes sont des maisons très étroites – dont la largeur équivaut à une seule pièce et dont la superficie est distribuée sur la longueur. Situé aux deux derniers étages du bâtiment, le restaurant possède 2 salles par étages séparées par un escalier et palier central.
-            La structure du bâtiment ne pouvant être modifiée, des solutions ingénieuses ont été mises en place pour légitimer et valoriser les différents espaces.
+            La structure du bâtiment ne pouvant être modifiée, des solutions ingénieuses ont été mises en place pour légitimer et valoriser les différents espaces.\n
             Pour cela, chaque pièce a été conçue avec son identité propre.
             Le design a été défini en tenant compte des dimensions et des caractéristiques de chaque salle (luminosité, dimension, vue…). Cela crée des espaces boudoirs avec pour chacun, une manière différente de consommer (sur le pouce, cosy, restauration classique).`,
             content3:`La conception de cette salle s’est organisée autour d’une contrainte majeure. L’espace réduit devait intégrer un système de ventilation venant des cuisines. La solution apportée, pour ne pas perdre d’espace, a été de créer un cadre comprenant les tuyaux d’évacuation. Ce cadre a été mis à profit en créant une alcôve avec banquette encastrée, renforçant l’aspect cocooning de la pièce. Pour marquer cet aspect, un plaquage a été réalisé avec du vieux bois sur le mur attenant et en choisissant une peinture murale sombre. L’attention est donc portée sur l’espace des assises, agrémenté de décoration et coussins aux couleurs vives.
@@ -188,7 +188,7 @@ export const travaux = {
         waffle2:{
             images:'interiorDesign/waffle/WSwannawaffle5.jpg, interiorDesign/waffle/WSwannawaffle6.jpg',
             verticale:'interiorDesign/waffle/WSwannawaffle7.jpg',
-            content:`Utilisant des matériaux bruts (vieux bois, ardoise, rotin tressé), cette salle de restaurant a été conçue sur un modèle zen et naturel. Ses assises en mobilier semi rigide et sa disposition en font une salle adaptée pour travailler en coworking tout en prenant des consommations légères. 
+            content:`Utilisant des matériaux bruts (vieux bois, ardoise, rotin tressé), cette salle de restaurant a été conçue sur un modèle zen et naturel. Ses assises en mobilier semi rigide et sa disposition en font une salle adaptée pour travailler en coworking tout en prenant des consommations légères. \n
             Son nombre de place plus restreint et sa disposition au dernier étage participent également à en faire un espace plus calme.`
         }
     }

@@ -50,7 +50,7 @@
 ----------------------------------------------------------*/
   
 .sous-menu{
-  font-family: 'Work Sans', semibold;
+  font-family: 'Work Sans', regular;
   position: absolute;
   width: 100%;
   z-index: 1000;

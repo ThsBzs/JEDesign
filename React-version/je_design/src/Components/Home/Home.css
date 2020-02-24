@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Work+Sans:300,400,500,600&display=swap');
 
 .containerHome{
     margin-top: 15px;
@@ -30,8 +30,9 @@
     text-align: left;
     padding: 1em;
     border : 5px double grey;
-    font-family: 'Work Sans', semibold;
-    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 18px;
     min-width: 300px;
     margin-left: 45px;
     width: 20%;

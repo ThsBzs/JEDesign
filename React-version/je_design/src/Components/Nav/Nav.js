@@ -24,8 +24,8 @@ const Nav = () => (
                 <li className="nav-menu">
                     <a href="/interior">Design intérieur</a>
                     <ul className="sous-menu">
-                        <a href="/interior/resto"><li className="resto">Restaurant Joy + - Hanoï</li></a>
-                        <a href="/interior/waffle"><li className="waffle">Wanna Waffle</li></a>
+                        <a href="/interior/resto"><li className="resto">Restaurant Joy +</li></a>
+                        <a href="/interior/waffle"><li className="waffle">WannaWaffle</li></a>
                     </ul> 
                 </li>
                 <li className="nav-menu">

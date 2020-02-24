@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&display=swap');
 
 .container{
     display: flex;
@@ -63,8 +63,9 @@
     text-align: left;
     padding: 1em;
     border : 5px double grey;
-    font-family: 'Work Sans', semibold;
-    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 18px;
     width: 20%;
     min-width: 19em;
 }
