@@ -16,16 +16,6 @@
     
 }
 
-/*mMasquage de la photo sur petits écrans*/
-@media screen and ( max-width : 800px) {
-    .homeImg{
-        display: none;
-    }
-    .containerHome{
-        justify-content: center;
-    }
-}
-
 .homeText{
     text-align: left;
     padding: 1em;
@@ -41,4 +31,17 @@
 
 .homeText > p{
 margin: 5px;
+}
+
+/*Masquage de la photo sur petits écrans*/
+@media screen and ( max-width : 800px) {
+    .homeImg{
+        display: none;
+    }
+    .containerHome{
+        justify-content: center;
+    }
+    .homeText{
+        margin-left: 0px;
+    }
 }

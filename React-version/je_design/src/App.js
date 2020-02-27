@@ -10,6 +10,10 @@ import Containerhome from './Components/ContainerHome/Containerhome';
 import Contact from './Components/Contact/Contact'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import JECarousel from './Components/JECarousel/JECarousel'
+import Footer from './Components/Footer/Footer'
+import Legal from './Components/Legal/Legal'
+
+import './App.css'
 
 class App extends Component {
 
@@ -25,8 +29,10 @@ class App extends Component {
     return (
       <Fragment>
         <BrowserRouter>
-        <Nav />
-            <Switch>
+          <section className='page'>
+            <section className='page-wrap'>
+              <Nav />
+              <Switch>
               {/*ACCUEIL*/}
               <Route exact path='/' component={Home}/>
               <Route exact path='/home' component={Home}  />
@@ -101,8 +107,14 @@ class App extends Component {
                 </Fragment> }/>
               {/* CONTACT */}
               <Route path="/contact" component={Contact} />
+              {/*LEGAL*/}
+              <Route path="/mentions" component={Legal} />
             </Switch>
+            </section>
+            <Footer />
+          </section>
         </BrowserRouter>
+        
       </Fragment>
     )
   }

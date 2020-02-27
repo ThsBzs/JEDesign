@@ -29,6 +29,7 @@
     list-style: none;
     margin-top: -15px;
     padding-left: 0px;
+    justify-content: center;
 }
 
 .containerImgList > li {

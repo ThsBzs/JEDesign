@@ -16,7 +16,7 @@ const Template1 = ({sujet, categorie, id}) => {
         }
     },
     img = source(sujet).images,
-    text = source(sujet).content.split('\n'),
+    text = source(sujet).content,
     requireImage = path => {
         try {
             return <img src={require(`../../images/${path}`)} alt={source(sujet)} className='containerHomeImg'></img>
@@ -38,7 +38,8 @@ const Template1 = ({sujet, categorie, id}) => {
                 </div>
                 <div className='text1'>
                     <p>{source(sujet).title}</p>
-                    {text.map(text => <p>{text}<br /></p>)}
+                    {/*Vérifie si text existe avant de l'ajouter*/}
+                    {text && text.split('\n').map(text => <p>{text}<br /></p>)}
                 </div>
             </div>
         </Fragment>

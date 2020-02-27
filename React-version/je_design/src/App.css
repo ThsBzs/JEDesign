@@ -1,0 +1,10 @@
+.page{
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.page-wrap{
+    padding-bottom: 3.5rem;
+    min-width: 100vw;
+}

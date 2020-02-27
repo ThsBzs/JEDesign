@@ -120,7 +120,6 @@ export const travaux = {
             name : 'PORTE SAVON',
             images: 'produits/porte_savon/WSsoap1.jpg, produits/porte_savon/WSsoap2.jpg',
             verticale:'produits/porte_savon/WSsoap3.jpg',
-            content: 'Avec son look 50’s, cette console apporte une esthétique rétro-revisité. Son système d’ouverture de tiroirs en poignées encastrées en forme de croissant offre un côté graphique et épuré. Piétement incliné avec barreaux renforts en traverse apparents.',
             carrousel: 'produits/porte_savon/WSsoap4.jpg, produits/porte_savon/WSsoap5.jpg'
         },
         produit4:{

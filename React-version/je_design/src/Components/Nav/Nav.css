@@ -4,8 +4,9 @@
                           MENU
 ----------------------------------------------------------*/
 .nav{
-  font-family: 'Work Sans', regular;
+  font-family: 'Work Sans';
   font-size: 20px;
+  font-weight: 400;
   background-color: #261f28;
   width: 100%;
 }
@@ -50,7 +51,8 @@
 ----------------------------------------------------------*/
   
 .sous-menu{
-  font-family: 'Work Sans', regular;
+  font-family: 'Work Sans';
+  font-weight: 400;
   position: absolute;
   width: 100%;
   z-index: 1000;
@@ -62,7 +64,7 @@
   border-left: 1px solid #261f28;
   border-top: none;
   max-height: 0em;
-  transition: 0.5s max-height 0.5s;
+  transition: 200ms max-height 200ms;
 
 }
 
