@@ -11,7 +11,7 @@ const Legal = () => {
                 <br/>
                 <br/>
                 <h2>Droits d'auteur</h2>
-                <p>La reproduction intégrale ou partielle, des pages, des textes, des photos, des données et de tout autre élément constitutif du site www.je-design.homesailor.fr est interdite sans l’autorisation de l’éditeur, Julien Estaque Design, et constitue une contrefaçon.</p>
+                <p>La reproduction intégrale ou partielle, des pages, des textes, des photos, des données et de tout autre élément constitutif du site www.julien-estaque-design.homesailor.fr est interdite sans l’autorisation de l’éditeur, Julien Estaque Design, et constitue une contrefaçon.</p>
                 <br/>
                 <br/>
                 <h2>Stockage et conservation des données</h2>
