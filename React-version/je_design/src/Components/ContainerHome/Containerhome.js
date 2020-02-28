@@ -25,14 +25,15 @@ import sketches from '../../Sources/sketches'
     arr = source(sujet),
     requireImage = path => {
         try {
-             return <li>
+             return <li key={path.name}>
                         <a href={path.link} >
+                            <h2 className='name'>{path.name}</h2>
                             <img src={require(`../../images/${path.imgHome}`)} alt={path.title} className='containerHomeImg'>
                             </img>
                         </a>
                     </li>
          } catch (err) {
-             return <img src={require(`../logo.png`)} alt={arr} className='containerHomeImg'></img>
+             
          }
      }
         
@@ -40,7 +41,7 @@ import sketches from '../../Sources/sketches'
         <Fragment>
             <div className='container'>
                 <ul className='containerImgList'>
-                    {Object.keys(arr).map(key => requireImage(arr[key]))}
+                    {Object.keys(arr).map(key => key=requireImage(arr[key]))}
                 </ul>
                 { sujet === 'travaux' &&
                     <div className='containerHomeText'>

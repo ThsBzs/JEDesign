@@ -43,21 +43,29 @@
     height: 21em;
 }
 
+.containerImgList > li:hover .containerHomeImg{
+    transition: 100ms;
+    opacity: 0.48;
+}
+.containerImgList > li:hover .name{
+    transition: 200ms;
+    opacity: 1;
+    display: block;
+    z-index: 1000;
+}
 
 .containerHomeImg{
     width: 28em;
     min-height: 19em;
-    transition: 200ms;
-    transform: scale(1);
 }
 
-.containerHomeImg:hover{
-    transition: 200ms;
-    transform: scale(1.1);
-}
-
-.containerHomeImg:hover .homeLink>h3{
-    display: block;
+.name{
+    opacity: 0;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    padding-left: 25px;
+    text-transform: uppercase; 
 }
 
 .containerHomeText{

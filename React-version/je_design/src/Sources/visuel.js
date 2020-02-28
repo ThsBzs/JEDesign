@@ -1,7 +1,7 @@
 const visuel = {
     produits:{
         visuel1:{
-            name:'Carte de visite - Photographe Professionnelle',
+            name:'Carte de visite',
             imgHome: 'communicationVisuelle/carte/WSCarte1.jpg',
             link: '/visuel/carte',
             content:`Conception d’une carte de visite pour photographe indépendante. Esthétique reprenant les codes des débuts de la photographie du XIXe siècle. \n Dimensions : 8.5 x 5.4 cm\nPapier Kraft 350g\nRecto : Quadri couleur, gaufrage\nVerso : Quadri couleur simple `,
@@ -9,7 +9,8 @@ const visuel = {
             verticale:'communicationVisuelle/carte/WSCarte3.jpg'
         },
         visuel2:{
-            name:'Création de logotype pour le restaurant Me Phich, Dac Lak, Vietnam. ',
+            name:'Logo - Me Phich',
+            title:'Création de logotype pour le restaurant Me Phich, Dac Lak, Vietnam. ',
             imgHome: 'communicationVisuelle/mePhich/WSMePhich1.jpg',
             link: '/visuel/mephich',
             images:'communicationVisuelle/mePhich/WSMePhich1.jpg, communicationVisuelle/mePhich/WSMePhich2.jpg',
@@ -28,7 +29,7 @@ const visuel = {
             modele2Carousel:'communicationVisuelle/abyss/WSAbyss3.jpg, communicationVisuelle/abyss/WSAbyss4.jpg'
         },
         visuel4:{
-            name:`Logo - Centre d'apprentissage de langues "Petit Center" `,
+            name:`Logo - Petit Center`,
             link: '/visuel/petit',
             imgHome: 'communicationVisuelle/petit/WSpetit0.jpg',
             images:'communicationVisuelle/petit/WSpetit1.jpg, communicationVisuelle/petit/WSpetit2.jpg',

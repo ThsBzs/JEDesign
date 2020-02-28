@@ -39,7 +39,7 @@ const Template1 = ({sujet, categorie, id}) => {
                 <div className='text1'>
                     <p>{source(sujet).title}</p>
                     {/*Vérifie si text existe avant de l'ajouter*/}
-                    {text && text.split('\n').map(text => <p>{text}<br /></p>)}
+                    {text && text.split('\n').map(text => <p key={text}>{text}<br /></p>)}
                 </div>
             </div>
         </Fragment>

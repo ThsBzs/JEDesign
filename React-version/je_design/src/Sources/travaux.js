@@ -3,7 +3,7 @@ export const travaux = {
     mobilierHome: {
         name:'Mobilier',
         images: 'mobilier/console/WSconsole1.jpg, mobilier/chevet/WSchevet1.jpg, mobilier/sdb/WSsdb1.jpg, mobilier/fauteuil/WSfauteuil1.jpg',
-        content: `Conception de mobilier standard et sur mesure destinée à des particuliers ou professionnels de la restauration, de l’hôtellerie, boutiques, ambassades.
+        content: `Conception de mobilier standard et sur mesure destiné à des particuliers ou professionnels de la restauration, de l’hôtellerie, boutiques, ambassades.
         Réalisation artisanale et utilisation de matériaux naturels.
         Mise en place de processus permettant la réalisation en moyenne série par un tissu artisanal.`
     },
@@ -74,8 +74,6 @@ export const travaux = {
             content: 'Inspirée par les rizières en terrasse, la table basse Sapa reprend les motifs caractéristiques formés par les cultures de riz des hauts plateaux de Sapa. A la fois minérale et organique, sa forme est comme un monolithe sculptural qui vient habiller l’espace en cassant les perspectives. La finition laquée mat ou brillante vient mettre en valeur les sillons et jouer avec la lumière. La gamme Sapa comporte un modèle de miroir, une lampe de chevet, une console et une table basse. Cet ensemble reprend les mêmes codes avec une esthétique complémentaire, pour être assorti de manière harmonieuse. Designé pour Ynot ©'
         },
         mobilier7: {
-            link:'/mobilier/sapa',
-            imgHome:'mobilier/sapa/WSSapatable6.jpg',
             images: 'mobilier/sapa/WSSapatable6.jpg, mobilier/sapa/WSSapatable7.jpg, mobilier/sapa/WSSapatable8.jpg',
             verticale:'mobilier/sapa/WSSapatable8v.jpg',
             modele2Carousel: 'mobilier/sapa/WSSapatable8.jpg, mobilier/sapa/WSSapatable9.jpg',
@@ -135,10 +133,12 @@ export const travaux = {
     interiorHome: {
         joyHome:{
             link:"/interior/resto",
+            name:'Restaurant Joy',
             imgHome:'interiorDesign/joy/WSJoy3.jpg'
         },
         waffleHome:{
             link:"/interior/waffle",
+            name:'Restaurant WannaWaffle',
             imgHome:'interiorDesign/waffle/WSwannawaffle8.jpg',
         }
     },
