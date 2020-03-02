@@ -13,7 +13,7 @@ class Nav extends Component {
                     <a href="/home" className="logo" alt="Julien Estaque Design"><img src={require('../logo.png')} alt="Julien Estaque Design" /></a>
                     <Burgernav />
                     <ul className="nav-links">
-                        <li><a href="/home">A propos</a></li>
+                        <li><a href="/about">A propos</a></li>
                         <li className="nav-menu">
                             <a href="/mobilier">Mobilier</a>
                             <ul className="sous-menu">

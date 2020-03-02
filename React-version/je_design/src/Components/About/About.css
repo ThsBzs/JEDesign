@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Work+Sans:300,400,500,600&display=swap');
 
-.containerHome{
+.containerAbout{
     margin-top: 15px;
     display: flex;
     flex-flow: row wrap;
@@ -9,14 +9,14 @@
     overflow: hidden;
 }
 
-.homeImg {
+.aboutImg {
     width: 20%;
     height: 30%;
     margin: 10px;
     
 }
 
-.homeText{
+.aboutText{
     text-align: left;
     padding: 1em;
     border : 5px double grey;
@@ -29,19 +29,19 @@
     text-align: left;
 }
 
-.homeText > p{
+.aboutText > p{
 margin: 5px;
 }
 
 /*Masquage de la photo sur petits écrans*/
 @media screen and ( max-width : 800px) {
-    .homeImg{
+    .aboutImg{
         display: none;
     }
-    .containerHome{
+    .containerAbout{
         justify-content: center;
     }
-    .homeText{
+    .aboutText{
         margin-left: 0px;
     }
 }

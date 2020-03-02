@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react'
-import './Home.css'
+import './About.css'
 
-class Home extends Component {
+class About extends Component {
     render() {
         return(
             <Fragment>
-                <div className="containerHome">
-                    <img src={require('./julien.jpg')} alt='Julien' className="homeImg"></img>
-                    <section className="homeText">
+                <div className="containerAbout">
+                    <img src={require('./julien.jpg')} alt='Julien' className="aboutImg"></img>
+                    <section className="aboutText">
                         <p>Designer d&#39;objets et de mobilier, je possède une sensibilité particulière pour les matériaux naturels et
                         l&#39;artisanat. Le travail des matières, les textures, les savoir-faire, les cultures du monde font partie de
                         mes principales inspirations pour la conception de projets.
@@ -23,4 +23,4 @@ class Home extends Component {
     }
 }
 
-export default Home
+export default About

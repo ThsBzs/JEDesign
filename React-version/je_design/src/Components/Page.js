@@ -1,6 +1,6 @@
 import React, { Fragment, Component} from 'react'
 
-import Home from './Home/Home'
+import About from './About/About'
 import Template1 from './Template1/Template1'
 import Template2 from './Template2/Template2'
 import Template3 from './Template3/Template3'
@@ -27,8 +27,9 @@ class Page extends Component  {
           <Router>
               <Switch>
               {/*ACCUEIL*/}
-              <Route exact path='/' component={Home}/>
-              <Route exact path='/home' component={Home}  />
+              <Route exact path='/' component={() => <Containerhome sujet='home'/>}/>
+              <Route exact path='/home' component={() => <Containerhome sujet='home'/>}  />
+              <Route path='/about' component={About}  />
               {/* MOBILIER */}
               <Route exact path="/mobilier" component={() => <Containerhome sujet='travaux'/>} />
               <Route path="/mobilier/chevet" component={() => <Template1  categorie='mobilier' id='mobilier1' />} />

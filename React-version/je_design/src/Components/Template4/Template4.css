@@ -21,13 +21,15 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.picture>img {
+
+.picture img {
     overflow: hidden;
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;
     box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
     margin-top: 1em;
-    max-width: 70%;
+    width: 50%;
+    height: auto;
     margin: auto 10px;
 }
 
@@ -38,6 +40,15 @@
     font-family: 'Work Sans';
     font-weight: 300;
     font-size: 20px;
-    width: 65.5%;
+    width: 65.7%;
     min-width: 300px;
 }
+
+@media (max-width : 980px){
+    .picture{
+      display: none;
+    }
+    .text4{
+        width: 66%;
+    }
+  }

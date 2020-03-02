@@ -22,17 +22,28 @@
     }
 }
 
-.containerImgList{
+.containerImgList, .home{
     display: flex;
     flex-flow: row wrap;
-    width: 55%;
     list-style: none;
     margin-top: -15px;
     padding-left: 0px;
     justify-content: center;
 }
 
-.containerImgList > li {
+.containerImgList {
+    width: 55%;
+}
+
+.home{
+    width: 80%;
+}
+
+.home > li{
+    min-height: 440px;
+}
+
+.containerImgList > li, .home > li {
     overflow: hidden;
     border-top: 0.25px solid rgb(219, 216, 216) ;
     border-left: 0.25px solid rgb(219, 216, 216) ;
@@ -43,15 +54,15 @@
     height: 21em;
 }
 
-.containerImgList > li:hover .containerHomeImg{
+.containerImgList > li:hover .containerHomeImg, .home>li:hover .containerHomeImg{
     transition: 100ms;
     opacity: 0.48;
 }
-.containerImgList > li:hover .name{
+.containerImgList > li:hover .name, .home > li:hover .name{
     transition: 200ms;
     opacity: 1;
     display: block;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .containerHomeImg{

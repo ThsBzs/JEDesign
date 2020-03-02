@@ -10,6 +10,8 @@ import sketches from '../../Sources/sketches'
         switch (path) {
             case 'travaux':
                 return travaux.mobilier
+            case 'home':
+                return sketches.home
             case 'visuel':
                 return visuel.produits
             case 'produits':
@@ -40,9 +42,14 @@ import sketches from '../../Sources/sketches'
     return(
         <Fragment>
             <div className='container'>
+                {sujet === 'home' ? 
+                    <ul className='home'>
+                    {Object.keys(arr).map(key => key=requireImage(arr[key]))}
+                </ul> :
                 <ul className='containerImgList'>
                     {Object.keys(arr).map(key => key=requireImage(arr[key]))}
                 </ul>
+                }
                 { sujet === 'travaux' &&
                     <div className='containerHomeText'>
                         <p>{travaux.mobilierHome.content}</p>

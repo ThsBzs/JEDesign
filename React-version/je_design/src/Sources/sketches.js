@@ -1,4 +1,36 @@
 const sketches = {
+    home:{
+        sapa:{
+            name:'Sapa Collection',
+            link:'/modilier/sapa',
+            imgHome:'intro/WSIntro1.jpg',
+        },
+        pyrrhos:{
+            name:'Pyrrhos',
+            link:'/products/poele',
+            imgHome:'intro/WSIntro2.jpg',
+        },
+        waffle:{
+            name:'WannaWaffle',
+            link:'/interior/waffle',
+            imgHome:'intro/WSIntro3.jpg',
+        },
+        line:{
+            name:'Console Line',
+            link:'/mobilier/console',
+            imgHome:'intro/WSIntro4.jpg',
+        },
+        carte:{
+            name:'Carte de visite',
+            link:'/visuel/carte',
+            imgHome:'intro/WSIntro5.jpg',
+        },
+        humain:{
+            name:'Croquis',
+            link:'/sketches/humains',
+            imgHome:'intro/WSIntro6.jpg',
+        },
+    },
     sketchesHome:{
         insectesHome:{
             name:'insectes',
