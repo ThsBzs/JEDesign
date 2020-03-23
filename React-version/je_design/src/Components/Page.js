@@ -8,7 +8,7 @@ import Joy from './Joy/Joy'
 import Sapa from './Sapa/Sapa'
 import Containerhome from './ContainerHome/Containerhome';
 import Contact from './Contact/Contact'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import JECarousel from './JECarousel/JECarousel'
 import Legal from './Legal/Legal'
 
@@ -24,7 +24,7 @@ class Page extends Component  {
       render() {
     return (
         <Fragment>
-          <Router>
+          <BrowserRouter forceRefresh={false}>
               <Switch>
               {/*ACCUEIL*/}
               <Route exact path='/' component={() => <Containerhome sujet='home'/>}/>
@@ -104,7 +104,7 @@ class Page extends Component  {
               {/*LEGAL*/}
               <Route path="/mentions" component={Legal} />
             </Switch>
-          </Router>
+          </BrowserRouter>
         </Fragment>
     )
   }

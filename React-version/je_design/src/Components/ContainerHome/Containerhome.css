@@ -24,7 +24,6 @@
 
 .containerImgList, .home{
     display: flex;
-    flex-flow: row wrap;
     list-style: none;
     margin-top: -15px;
     padding-left: 0px;
@@ -32,11 +31,13 @@
 }
 
 .containerImgList {
+    flex-flow: row wrap;
     width: 55%;
 }
 
 .home{
-    width: 80%;
+    flex-flow: row wrap;
+    width: 91.5%;
 }
 
 .home > li{

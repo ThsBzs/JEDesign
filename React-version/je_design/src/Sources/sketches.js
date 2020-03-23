@@ -2,7 +2,7 @@ const sketches = {
     home:{
         sapa:{
             name:'Sapa Collection',
-            link:'/modilier/sapa',
+            link:'/mobilier/sapa',
             imgHome:'intro/WSIntro1.jpg',
         },
         pyrrhos:{
