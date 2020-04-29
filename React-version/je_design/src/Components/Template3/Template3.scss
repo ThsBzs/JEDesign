@@ -1,3 +1,4 @@
+@import '../Variables/Variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Work+Sans:300,400,500,600&display=swap');
 
 .container3{
@@ -28,37 +29,26 @@
 }
 
 .picture3{
+    @include card-picture;
     width: 40.5em;
     height: 31em;
-    overflow: hidden;
-    border-top: 0.25px solid rgb(219, 216, 216) ;
-    border-left: 0.25px solid rgb(219, 216, 216) ;
-    box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    >img{
+        width: inherit;
+        overflow: hidden;
+        transition: 200ms;
+        transform: scale(1);
+        &:hover{
+            overflow: hidden;
+            transition: 200ms;
+            transform: scale(1.1);
+        }
+    }    
 }
-
-.picture3>img{
-    width: inherit;
-    overflow: hidden;
-    transition: 200ms;
-    transform: scale(1);
-}
-
-.picture3>img:hover{
-    overflow: hidden;
-    transition: 200ms;
-    transform: scale(1.1);
-}
-
 
 .text3{
+    @include text;
     overflow-y: scroll;
-    text-align: left;
-    padding: 1em;
-    border : 5px double grey;
-    font-family: 'Work Sans';
-    font-weight: 300;
-    font-size: 20px;
     width: 70%;
     height: 21.3em;
 }

@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './Template3.css';
+import './Template3.scss';
 import travaux from '../../Sources/travaux'
 
 

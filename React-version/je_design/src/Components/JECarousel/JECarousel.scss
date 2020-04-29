@@ -1,0 +1,12 @@
+@import '../Variables/Variables.scss';
+
+.jeCarousel{
+    margin: 45px auto -10px auto;
+    max-width: 68.5%;
+    text-align: center;
+    @include card-picture;
+}
+
+.thumbs {
+    padding-left: 0px;
+}

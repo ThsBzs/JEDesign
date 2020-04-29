@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './Legal.css'
+import './Legal.scss'
 
 const Legal = () => {
     return(

@@ -1,0 +1,39 @@
+@import '../Variables/Variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Work+Sans:300,400,500,600&display=swap');
+
+.container4{
+    @include container-align;
+}
+
+.picture{
+    @include container-align;
+    flex-flow: row nowrap;
+    max-width: 69.5%;
+    img {
+        @include card-picture;
+        margin-top: 1em;
+        width: 50%;
+        height: auto;
+        margin: auto 10px;
+    }
+}
+
+.picture4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.text4{
+    @include text;
+    width: 65.7%;
+}
+
+@media (max-width : 980px){
+    .picture{
+      display: none;
+    }
+    .text4{
+        width: 66%;
+    }
+  }

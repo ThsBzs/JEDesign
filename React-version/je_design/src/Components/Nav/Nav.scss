@@ -1,3 +1,4 @@
+@import '../Variables/Variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
 
 /*----------------------------------------------------------
@@ -7,7 +8,7 @@
   font-family: 'Work Sans';
   font-size: 20px;
   font-weight: 400;
-  background-color: #261f28;
+  background-color: $blue-background;
   width: 100%;
 }
 
@@ -19,31 +20,27 @@
   list-style-type: none;
   display: flex;
   margin-bottom: 0px;
-}
-  
-.nav-links > li {
-  position: relative;
-}
-  
-.nav-links > li > a{
-  transition: 200ms;
-  text-decoration: none;
-  color: grey;
-  margin: auto 3em;
-}
-  
-.nav-links > li > a:hover, .nav-links > li > a:active{
-  transition: 200ms;
-  color: white;
-}
-  
-.logo > img{
-  width: 8em;
-  padding-top: 1em;
+  >li{
+    position: relative;
+    >a{
+      transition: 200ms;
+      text-decoration: none;
+      color: grey;
+      margin: auto 3em;
+      &:hover, &:active{
+        transition: 200ms;
+        color: white;
+      } 
+    }
+  }
 }
   
 .logo{
- padding-bottom: -1em; 
+ padding-bottom: -1em;
+ > img{
+    width: 8em;
+    padding-top: 1em;
+  } 
 }
    
 .active{
@@ -52,8 +49,8 @@
 /*----------------------------------------------------------
                       MENU DEROULANT
 ----------------------------------------------------------*/
-  
-.sous-menu{
+
+.sous-menu {
   font-family: 'Work Sans';
   font-weight: 400;
   position: absolute;
@@ -63,46 +60,44 @@
   padding-top: 1em;
   padding-left: 0em;
   overflow: hidden;
-  background-color: #261f28;
-  border-left: 1px solid #261f28;
+  background-color: $blue-background;
+  border-left: 1px solid $blue-background;
   border-top: none;
   max-height: 0em;
   transition: 200ms max-height 200ms;
-
+  :hover {
+    cursor: pointer;
+    transition: 200ms;
+    background-color: $blue-background;
+  }
+  >a {
+    border-right: 1px solid $blue-background;
+    float: left;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding: 0.8em 0em 0.8em 0.4em;
+    transition: 200ms;
+    background-color: white;
+    color: $blue-background; 
+    text-decoration: none;
+    &:hover {
+      transition: 200ms;
+      color: white;
+      background-color: $blue-background;
+    }
+  }
+  >a:last-of-type {
+    border-bottom: 1px solid $blue-background;
+  }
 }
 
 .nav-menu:hover .sous-menu{
   max-height: 150em;
 }
 
-.sous-menu:hover{
-  cursor: pointer;
-  transition: 200ms;
-  background-color: #261f28;
-}
   
-.sous-menu>a{
-  border-right: 1px solid #261f28;
-  float: left;
-  width: 100%;
-  text-align: left;
-  position: relative;
-  padding: 0.8em 0em 0.8em 0.4em;
-  transition: 200ms;
-  background-color: white;
-  color: #261f28; 
-  text-decoration: none;
-}
-  
-.sous-menu>a:last-of-type{
-  border-bottom: 1px solid #261f28;
-}
-  
-.sous-menu>a:hover{
-  transition: 200ms;
-  color: white;
-  background-color: #261f28;
-}
+
     
 
 .burger-menu{

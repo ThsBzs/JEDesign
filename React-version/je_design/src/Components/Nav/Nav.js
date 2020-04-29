@@ -1,5 +1,5 @@
 import React, {Fragment, Component} from 'react';
-import './Nav.css';
+import './Nav.scss';
 import Burgernav from '../Burgernav/Burgernav'
 
 class Nav extends Component {

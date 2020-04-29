@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-import './Contact.css'
+import './Contact.scss'
 
 const Contact = () => {
     const handleClick = () => { 

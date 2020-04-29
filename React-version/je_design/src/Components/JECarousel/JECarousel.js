@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import './JECarousel.css'
+import './JECarousel.scss'
 import travaux from '../../Sources/travaux'
 import sketches from '../../Sources/sketches'
 import visuel from '../../Sources/visuel'

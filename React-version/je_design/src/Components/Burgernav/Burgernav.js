@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './Burgernav.css';
+import './Burgernav.scss';
 
 const Nav = () =>(
     <Fragment>

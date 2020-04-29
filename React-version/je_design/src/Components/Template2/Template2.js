@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './Template2.css';
+import './Template2.scss';
 import travaux from '../../Sources/travaux'
 
 const Template2 = ({ requireImage, categorie, id}) => {

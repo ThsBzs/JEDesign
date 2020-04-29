@@ -1,14 +1,9 @@
+@import '../Variables/Variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Work+Sans:300,400,500,600&display=swap');
 
 /*Global*/
 .container1{
-  transition: 200ms;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 15px;
+    @include container-align;
   }
 
 /*Titre*/
@@ -25,13 +20,7 @@
   
 /*Container images*/
 .picture-container1, .pictures1{
-  transition: 200ms;
-  display: flex;
-  flex-flow: column wrap;
-  list-style: none;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+ @include card-display;
 }
 
 .picture-container1 {
@@ -44,26 +33,21 @@ h2{
   font-weight: 500;
 }
 
-.pictures1{
+.pictures1 {
   padding: 0px;
+  >li {
+    list-style: none;
+    margin: 0.8em 0.8em;
+    width: 28em;
+    height: 19em;
+    >img {
+      width: inherit;
+    }
+  }
 }
 
 .pictures1>li, .vertical1{
-  overflow: hidden;
-  border-top: 0.25px solid rgb(219, 216, 216) ;
-  border-left: 0.25px solid rgb(219, 216, 216) ;
-  box-shadow: 0.5em 0.5em 8px rgb(172, 170, 173);
-}
-
-.pictures1 > li{
-  list-style: none;
-  margin: 0.8em 0.8em;
-  width: 28em;
-  height: 19em;
-}
-  
-.pictures1>li>img{
-  width: inherit;
+  @include card-picture;
 }
   
 .pictures1 > li > img:hover, .vertical1>img:hover{
@@ -87,29 +71,20 @@ h2{
   max-width: 22em;
   overflow: hidden;
   margin : 0px 0px 4px 20px;
-}
-
-.vertical1>img{
-  width: inherit;
-  height: 39.5em;
-  margin-bottom: -4px;
+  >img{
+    width: inherit;
+    height: 39.5em;
+    margin-bottom: -4px;
+  }
 }
 
 .text1{
-  transition: 200ms;
-  text-align: left;
-  padding: 1em;
-  border : 5px double grey;
-  font-family: 'Work Sans';
-  font-weight: 300;
-  font-size: 20px;
+  @include text;
   width: 20%;
-  min-width: 300px;
   margin-left: 45px;
   max-height: 24em;
   overflow-y: auto;
 }
-à
   
 .text1 > p:first-child, .picture-container1 > h2{
   font-family: 'Work Sans', semibold;

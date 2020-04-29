@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './Template1.css';
+import './Template1.scss';
 import travaux from '../../Sources/travaux'
 import visuel from '../../Sources/visuel'
 import sketches from '../../Sources/sketches'
