@@ -6,7 +6,7 @@ const Legal = () => {
         <Fragment>
             <section className="legal">
                 <h2>Mentions légales</h2>
-                <p>Le site www.julien-estaque-design.homesailor.fr est exploité et géré par Julien Estaque.</p>
+                <p>Le site www.je-design.homesailor.fr est exploité et géré par Julien Estaque.</p>
                 <p>Il est réalisé par Homesailor, et hébergé par Ionos.</p>
                 <br/>
                 <br/>
